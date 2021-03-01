@@ -1,11 +1,11 @@
 % clear
 % Add EEGLAB path
-addpath('../eeglab');
+addpath('/expanse/projects/nemar/eeglab');
 eeglab; close;
 
 %try, parpool(23); end
 
-folderout = '../child-mind-restingstate-dung';
+folderout = '/expanse/projects/nemar/child-mind-restingstate-dung';
 fileNamesClosed = dir(fullfile(folderout, '*_eyesclosed.set'));
 N = length(fileNamesClosed);
 
