@@ -43,11 +43,11 @@ clear
 addpath('../eeglab');
 eeglab; close;
 
-try, parpool(23); end
+try, parpool; end
 
 % Path to data
 folderin  = '../child-mind-uncompressed';
-folderout = '../child-mind-restingstate-dung';
+folderout = '../child-mind-restingstate-dung-v2';
 folders = dir(folderin);
 fprintf('length %f', length(folders));
 
@@ -121,10 +121,10 @@ parfor iFold = 1:length(folders)
                 EEGeyesc = pop_epoch( EEG, {  '30  ' }, [3  37], 'newname', 'Eyes closed', 'epochinfo', 'yes');
                 EEGeyesc.eyesclosed = 1;
                 EEGeyesc = eeg_epoch2continuous(EEGeyesc);
-                EEGeyesc = pop_clean_rawdata(EEGeyesc, 'FlatlineCriterion',5,'ChannelCriterion',0.7,'LineNoiseCriterion',4,'Highpass','off','BurstCriterion','off','WindowCriterion','off','BurstRejection','off','Distance','Euclidian');
-                EEGeyesc = pop_interp(EEGeyesc, EEGeyesc.chanlocs);
-                EEGeyesc = eeg_regepochs( EEGeyesc, 'recurrence', 2, 'limits', [0 2]);
-                pop_saveset(EEGeyesc, fileNameClosedSet);
+                EEGeyesc2 = pop_clean_rawdata(EEGeyesc, 'FlatlineCriterion',5,'ChannelCriterion',0.7,'LineNoiseCriterion',4,'Highpass','off','BurstCriterion','off','WindowCriterion','off','BurstRejection','off','Distance','Euclidian');
+                EEGeyesc2 = pop_interp(EEGeyesc2, EEGeyesc.chanlocs);
+                EEGeyesc2 = eeg_regepochs( EEGeyesc2, 'recurrence', 2, 'limits', [0 2]);
+                pop_saveset(EEGeyesc2, fileNameClosedSet);
   
             else
                 issueFlag{iFold} = 'Not 129 channels';
