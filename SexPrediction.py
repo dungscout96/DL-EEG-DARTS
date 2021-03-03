@@ -227,7 +227,7 @@ print(pred.shape)
 
 
 optimizer = torch.optim.Adam(model.parameters(), lr=2e-3)
-train(model, optimizer)
+train(model, optimizer, epochs=10)
 
 
 # 
