@@ -100,9 +100,9 @@ for iFile=1:N
 end
 
 % save
-save('child_mind_x_train.mat','X_train','-v7.3');
-save('child_mind_y_train.mat','Y_train','-v7.3');
-save('child_mind_x_val.mat','X_val','-v7.3');
-save('child_mind_y_val.mat','Y_val','-v7.3');
-save('child_mind_x_test.mat','X_test','-v7.3');
-save('child_mind_y_test.mat','Y_test','-v7.3');
+save('child_mind_x_train_v2.mat','X_train','-v7.3');
+save('child_mind_y_train_v2.mat','Y_train','-v7.3');
+save('child_mind_x_val_v2.mat','X_val','-v7.3');
+save('child_mind_y_val_v2.mat','Y_val','-v7.3');
+save('child_mind_x_test_v2.mat','X_test','-v7.3');
+save('child_mind_y_test_v2.mat','Y_test','-v7.3');
