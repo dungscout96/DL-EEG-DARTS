@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[106]:
 
 
 import torch
@@ -16,7 +16,7 @@ import numpy as np
 import h5py
 
 
-# In[2]:
+# In[107]:
 
 
 class EEGDataset(torch.utils.data.Dataset):
@@ -38,12 +38,10 @@ class EEGDataset(torch.utils.data.Dataset):
         return len(self.y)
 
 
-# In[13]:
+# In[108]:
 
 
 # Load EEG data
-NUM_TRAIN = 700
-
 transform = T.Compose([
                 T.ToTensor()
             ])
@@ -84,31 +82,27 @@ loader_test = DataLoader(test_data, batch_size=64)
 print(np.histogram(y_train))
 
 
-# In[16]:
-
-
-# Test with MNIST
-import torchvision.datasets as dset
-NUM_TRAIN = 700
-transform = T.Compose([
-                T.ToTensor(),
-                T.CenterCrop(24),
-                T.Pad((116,0))
-            ])
-mnist_train = dset.MNIST('./mnist', train=True, download=True,
-                             transform=transform)
-loader_train = DataLoader(mnist_train, batch_size=64, 
-                          sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN)))
-
-mnist_val = dset.MNIST('./mnist', train=True, download=True,
-                           transform=transform)
-loader_val = DataLoader(mnist_val, batch_size=64, 
-                        sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN, 50000)))
-
-mnist_test = dset.MNIST('./mnist', train=False, download=True, 
-                            transform=transform)
-loader_test = DataLoader(mnist_test, batch_size=64)
-
+# # Test with MNIST
+# import torchvision.datasets as dset
+# NUM_TRAIN = 700
+# transform = T.Compose([
+#                 T.ToTensor(),
+#                 T.CenterCrop(24),
+#                 T.Pad((116,0))
+#             ])
+# mnist_train = dset.MNIST('./mnist', train=True, download=True,
+#                              transform=transform)
+# loader_train = DataLoader(mnist_train, batch_size=64, 
+#                           sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN)))
+# 
+# mnist_val = dset.MNIST('./mnist', train=True, download=True,
+#                            transform=transform)
+# loader_val = DataLoader(mnist_val, batch_size=64, 
+#                         sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN, 50000)))
+# 
+# mnist_test = dset.MNIST('./mnist', train=False, download=True, 
+#                             transform=transform)
+# loader_test = DataLoader(mnist_test, batch_size=64)
 
 # In[4]:
 
