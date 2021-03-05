@@ -38,39 +38,43 @@ class EEGDataset(torch.utils.data.Dataset):
         return len(self.y)
 
 
-# # Load EEG data
-# transform = T.Compose([
-#                 T.ToTensor()
-#             ])
-# f = h5py.File('child_mind_x_train_v2.mat', 'r')
-# x_train = f['X_train']
-# x_train = np.reshape(x_train,(-1,1,24,256))
-# print('X_train shape: ' + str(x_train.shape))
-# f = h5py.File('child_mind_y_train_v2.mat', 'r')
-# y_train = f['Y_train']
-# print('Y_train shape: ' + str(y_train.shape))
-# train_data = EEGDataset(x_train, y_train, True)
-# loader_train = DataLoader(train_data, batch_size=70)
-# 
-# f = h5py.File('child_mind_x_val_v2.mat', 'r')
-# x_val = f['X_val']
-# x_val = np.reshape(x_val,(-1,1,24,256))
-# print('X_val shape: ' + str(x_val.shape))
-# f = h5py.File('child_mind_y_val_v2.mat', 'r')
-# y_val = f['Y_val']
-# print('Y_val shape: ' + str(y_val.shape))
-# val_data = EEGDataset(x_val, y_val, True)
-# loader_val = DataLoader(val_data, batch_size=70)
-# 
-# f = h5py.File('child_mind_x_test_v2.mat', 'r')
-# x_test = f['X_test']
-# x_test = np.reshape(x_test,(-1,1,24,256))
-# print('X_test shape: ' + str(x_test.shape))
-# f = h5py.File('child_mind_y_test_v2.mat', 'r')
-# y_test = f['Y_test']
-# print('Y_test shape: ' + str(y_test.shape))
-# test_data = EEGDataset(x_test, y_test, False)
-# loader_test = DataLoader(test_data, batch_size=70)
+# In[ ]:
+
+
+# Load EEG data
+transform = T.Compose([
+                T.ToTensor()
+            ])
+f = h5py.File('child_mind_x_train_v2.mat', 'r')
+x_train = f['X_train']
+x_train = np.reshape(x_train,(-1,1,24,256))
+print('X_train shape: ' + str(x_train.shape))
+f = h5py.File('child_mind_y_train_v2.mat', 'r')
+y_train = f['Y_train']
+print('Y_train shape: ' + str(y_train.shape))
+train_data = EEGDataset(x_train, y_train, True)
+loader_train = DataLoader(train_data, batch_size=70, shuffle=True)
+
+f = h5py.File('child_mind_x_val_v2.mat', 'r')
+x_val = f['X_val']
+x_val = np.reshape(x_val,(-1,1,24,256))
+print('X_val shape: ' + str(x_val.shape))
+f = h5py.File('child_mind_y_val_v2.mat', 'r')
+y_val = f['Y_val']
+print('Y_val shape: ' + str(y_val.shape))
+val_data = EEGDataset(x_val, y_val, True)
+loader_val = DataLoader(val_data, batch_size=70)
+
+f = h5py.File('child_mind_x_test_v2.mat', 'r')
+x_test = f['X_test']
+x_test = np.reshape(x_test,(-1,1,24,256))
+print('X_test shape: ' + str(x_test.shape))
+f = h5py.File('child_mind_y_test_v2.mat', 'r')
+y_test = f['Y_test']
+print('Y_test shape: ' + str(y_test.shape))
+test_data = EEGDataset(x_test, y_test, False)
+loader_test = DataLoader(test_data, batch_size=70)
+
 
 # In[ ]:
 
@@ -82,6 +86,7 @@ print(np.histogram(y_train))
 
 
 # Test with MNIST
+'''
 import torchvision.datasets as dset
 NUM_TRAIN = 40000
 transform = T.Compose([
@@ -102,6 +107,7 @@ loader_val = DataLoader(mnist_val, batch_size=64,
 mnist_test = dset.MNIST('./mnist', train=False, download=True, 
                             transform=transform)
 loader_test = DataLoader(mnist_test, batch_size=64)
+'''
 
 
 # In[4]:
@@ -237,6 +243,19 @@ train(model, optimizer, epohcs=10)
 
 best_model = model
 check_accuracy(loader_test, best_model)
+
+
+# In[115]:
+
+
+def count_parameters_in_MB(model):
+  return np.sum([v.size() for name, v in model.named_parameters() if "auxiliary" not in name])
+
+
+# In[116]:
+
+
+count_parameters_in_MB(model)
 
 
 # In[ ]:
