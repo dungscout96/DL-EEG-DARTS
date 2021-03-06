@@ -154,10 +154,10 @@ class EEGDataset(torch.utils.data.Dataset):
         self.train = train
 
     def __getitem__(self, key):
-        sample = (self.x[key], self.y[key])
         if self.transform:
-            sample = self.transform(sample)
-        return sample
+            return (self.transform(self.x[key]), self.y[key])
+        else:
+            return (self.x[key], self.y[key])
 
     def __len__(self):
         return len(self.y)
