@@ -11,6 +11,7 @@ import torch.nn as nn
 import torch.utils
 import torch.nn.functional as F
 import torchvision.datasets as dset
+import torchvision.transforms as transforms
 import torch.backends.cudnn as cudnn
 
 from torch.autograd import Variable
@@ -89,14 +90,15 @@ def main():
   num_train = len(train_data)
   # indices = list(range(num_train))
   # split = int(np.floor(args.train_portion * num_train))
+  transform = transforms.ToTensor()
 
   train_queue = torch.utils.data.DataLoader(
       train_data, batch_size=args.batch_size,
-      pin_memory=True, num_workers=2)
+      pin_memory=True, num_workers=2, transforms=transform)
 
   valid_queue = torch.utils.data.DataLoader(
       val_data, batch_size=args.batch_size,
-      pin_memory=True, num_workers=2)
+      pin_memory=True, num_workers=2, transforms=transform)
 
   scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
         optimizer, float(args.epochs), eta_min=args.learning_rate_min)
