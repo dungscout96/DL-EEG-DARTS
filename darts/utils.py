@@ -63,7 +63,7 @@ def _get_EEG_data(args):
     x_train = f['X_train']
     x_train = np.reshape(x_train, (-1, 1, 24, 256))
     print('X_train shape: ' + str(x_train.shape))
-    f = h5py.File('child_mind_y_train_v2.mat', 'r')
+    f = h5py.File(f'{args.data}/child_mind_y_train_v2.mat', 'r')
     y_train = f['Y_train']
     print('Y_train shape: ' + str(y_train.shape))
     train_data = EEGDataset(x_train, y_train, True)
@@ -72,7 +72,7 @@ def _get_EEG_data(args):
     x_val = f['X_val']
     x_val = np.reshape(x_val, (-1, 1, 24, 256))
     print('X_val shape: ' + str(x_val.shape))
-    f = h5py.File('child_mind_y_val_v2.mat', 'r')
+    f = h5py.File(f'{args.data}/child_mind_y_val_v2.mat', 'r')
     y_val = f['Y_val']
     print('Y_val shape: ' + str(y_val.shape))
     val_data = EEGDataset(x_val, y_val, True)
