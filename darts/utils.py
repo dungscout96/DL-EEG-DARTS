@@ -66,7 +66,7 @@ def _get_EEG_data(args):
     f = h5py.File(f'{args.data}/child_mind_y_train_v2.mat', 'r')
     y_train = f['Y_train']
     print('Y_train shape: ' + str(y_train.shape))
-    train_data = EEGDataset(x_train, y_train, True)
+    train_data = EEGDataset(x_train, y_train, True, transform=transforms.ToTensor())
 
     f = h5py.File(f'{args.data}/child_mind_x_val_v2.mat', 'r')
     x_val = f['X_val']
@@ -75,7 +75,7 @@ def _get_EEG_data(args):
     f = h5py.File(f'{args.data}/child_mind_y_val_v2.mat', 'r')
     y_val = f['Y_val']
     print('Y_val shape: ' + str(y_val.shape))
-    val_data = EEGDataset(x_val, y_val, True)
+    val_data = EEGDataset(x_val, y_val, True, transform=transforms.ToTensor())
 
     return train_data, val_data
 
@@ -141,7 +141,7 @@ def create_exp_dir(path, scripts_to_save=None):
       shutil.copyfile(script, dst_file)
 
 class EEGDataset(torch.utils.data.Dataset):
-    def __init__(self, x, y, train):
+    def __init__(self, x, y, train, transform=None):
         super(EEGDataset).__init__()
         assert x.shape[0] == y.size
         self.x = x
@@ -153,7 +153,10 @@ class EEGDataset(torch.utils.data.Dataset):
         self.train = train
 
     def __getitem__(self, key):
-        return (self.x[key], self.y[key])
+        sample = (self.x[key], self.y[key])
+        if self.transform:
+            sample = self.transform(sample)
+        return sample
 
     def __len__(self):
         return len(self.y)
