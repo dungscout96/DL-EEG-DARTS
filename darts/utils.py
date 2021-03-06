@@ -61,7 +61,7 @@ class Cutout(object):
 def _get_EEG_data(args):
     f = h5py.File(f'{args.data}/child_mind_x_train_v2.mat', 'r')
     x_train = f['X_train']
-    x_train = np.reshape(x_train, (-1, 1, 24, 256))
+    x_train = np.reshape(x_train, (-1, 24, 256, 1))
     print('X_train shape: ' + str(x_train.shape))
     f = h5py.File(f'{args.data}/child_mind_y_train_v2.mat', 'r')
     y_train = f['Y_train']
@@ -70,7 +70,7 @@ def _get_EEG_data(args):
 
     f = h5py.File(f'{args.data}/child_mind_x_val_v2.mat', 'r')
     x_val = f['X_val']
-    x_val = np.reshape(x_val, (-1, 1, 24, 256))
+    x_val = np.reshape(x_val, (-1, 24, 256, 1))
     print('X_val shape: ' + str(x_val.shape))
     f = h5py.File(f'{args.data}/child_mind_y_val_v2.mat', 'r')
     y_val = f['Y_val']
