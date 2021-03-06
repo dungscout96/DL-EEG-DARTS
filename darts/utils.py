@@ -142,6 +142,7 @@ def create_exp_dir(path, scripts_to_save=None):
 
 class EEGDataset(torch.utils.data.Dataset):
     def __init__(self, x, y, train, transform=None):
+        self.transform = transform
         super(EEGDataset).__init__()
         assert x.shape[0] == y.size
         self.x = x
