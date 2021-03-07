@@ -130,7 +130,7 @@ def main():
 def train(train_queue, valid_queue, model, architect, criterion, optimizer, lr):
   objs = utils.AvgrageMeter()
   top1 = utils.AvgrageMeter()
-  top5 = utils.AvgrageMeter()
+  # top5 = utils.AvgrageMeter()
 
   for step, (input, target) in enumerate(train_queue):
     model.train()
@@ -158,10 +158,11 @@ def train(train_queue, valid_queue, model, architect, criterion, optimizer, lr):
     prec1, prec5 = utils.accuracy(logits, target)
     objs.update(loss.data[0], n)
     top1.update(prec1.data[0], n)
-    top5.update(prec5.data[0], n)
+    # top5.update(prec5.data[0], n)
 
     if step % args.report_freq == 0:
-      logging.info('train %03d %e %f %f', step, objs.avg, top1.avg, top5.avg)
+      # logging.info('train %03d %e %f %f', step, objs.avg, top1.avg, top5.avg)
+      logging.info('train %03d %e %f', step, objs.avg, top1.avg)
 
   return top1.avg, objs.avg
 
@@ -169,7 +170,7 @@ def train(train_queue, valid_queue, model, architect, criterion, optimizer, lr):
 def infer(valid_queue, model, criterion):
   objs = utils.AvgrageMeter()
   top1 = utils.AvgrageMeter()
-  top5 = utils.AvgrageMeter()
+  # top5 = utils.AvgrageMeter()
   model.eval()
 
   for step, (input, target) in enumerate(valid_queue):
@@ -183,10 +184,11 @@ def infer(valid_queue, model, criterion):
     n = input.size(0)
     objs.update(loss.data[0], n)
     top1.update(prec1.data[0], n)
-    top5.update(prec5.data[0], n)
+    # top5.update(prec5.data[0], n)
 
     if step % args.report_freq == 0:
-      logging.info('valid %03d %e %f %f', step, objs.avg, top1.avg, top5.avg)
+      # logging.info('valid %03d %e %f %f', step, objs.avg, top1.avg, top5.avg)
+      logging.info('valid %03d %e %f', step, objs.avg, top1.avg)
 
   return top1.avg, objs.avg
 
