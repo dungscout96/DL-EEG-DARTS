@@ -184,7 +184,7 @@ def infer(valid_queue, model, criterion):
     prec1 = utils.accuracy(logits, target)
     n = input.size(0)
     objs.update(loss.data[0], n)
-    top1.update(prec1, n)
+    top1.update(prec1[0], n)
     # top5.update(prec5.data[0], n)
 
     if step % args.report_freq == 0:
