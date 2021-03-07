@@ -6,6 +6,7 @@ from torch.autograd import Variable
 from genotypes import PRIMITIVES
 from genotypes import Genotype
 
+import gc
 
 class MixedOp(nn.Module):
 
@@ -160,4 +161,5 @@ class Network(nn.Module):
       reduce=gene_reduce, reduce_concat=concat
     )
     return genotype
+
 

@@ -146,18 +146,15 @@ class EEGDataset(torch.utils.data.Dataset):
         super(EEGDataset).__init__()
         assert x.shape[0] == y.size
         self.x = x
-        # temp_y = np.zeros((y.size, 2))
-        # for i in range(y.size):
-        #    temp_y[i, y[i]] = 1
-        # self.y = temp_y
         self.y = [y[i][0] for i in range(y.size)]
+        self.y = torch.tensor(self.y, dtype=torch.long)
         self.train = train
 
     def __getitem__(self, key):
         if self.transform:
             return (self.transform(self.x[key]), self.y[key])
         else:
-            return (self.x[key], self.y[key])
+            return (self.x[key], self.y[key].long())
 
     def __len__(self):
         return len(self.y)
