@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[106]:
-
-
+#%%
 import torch
 from torch import nn
 import torch.nn.functional as F
@@ -14,11 +9,10 @@ from torch.utils.data import sampler
 import torchvision.transforms as T
 import numpy as np
 import h5py
-
-
-# In[107]:
-
-
+import logging
+import os
+import sys
+#%%
 class EEGDataset(torch.utils.data.Dataset):
     def __init__(self, x, y, train):
         super(EEGDataset).__init__()
@@ -30,21 +24,24 @@ class EEGDataset(torch.utils.data.Dataset):
         #self.y = temp_y
         self.y = [y[i][0] for i in range(y.size)]
         self.train = train
-        
+
     def __getitem__(self,key):
         return (self.x[key], self.y[key])
-    
+
     def __len__(self):
         return len(self.y)
-
-
-# In[ ]:
-
+#%%
+log_format = '%(asctime)s %(message)s'
+logging.basicConfig(stream=sys.stdout, level=logging.INFO,
+                    format=log_format, datefmt='%m/%d %I:%M:%S %p')
+fh = logging.FileHandler(os.path.join('logs', 'log.txt'))
+fh.setFormatter(logging.Formatter(log_format))
+logging.getLogger().addHandler(fh)
 
 # Load EEG data
 transform = T.Compose([
-                T.ToTensor()
-            ])
+    T.ToTensor()
+])
 f = h5py.File('child_mind_x_train_v2.mat', 'r')
 x_train = f['X_train']
 x_train = np.reshape(x_train,(-1,1,24,256))
@@ -53,7 +50,7 @@ f = h5py.File('child_mind_y_train_v2.mat', 'r')
 y_train = f['Y_train']
 print('Y_train shape: ' + str(y_train.shape))
 train_data = EEGDataset(x_train, y_train, True)
-loader_train = DataLoader(train_data, batch_size=70, shuffle=True)
+
 
 f = h5py.File('child_mind_x_val_v2.mat', 'r')
 x_val = f['X_val']
@@ -63,7 +60,6 @@ f = h5py.File('child_mind_y_val_v2.mat', 'r')
 y_val = f['Y_val']
 print('Y_val shape: ' + str(y_val.shape))
 val_data = EEGDataset(x_val, y_val, True)
-loader_val = DataLoader(val_data, batch_size=70)
 
 f = h5py.File('child_mind_x_test_v2.mat', 'r')
 x_test = f['X_test']
@@ -74,17 +70,9 @@ y_test = f['Y_test']
 print('Y_test shape: ' + str(y_test.shape))
 test_data = EEGDataset(x_test, y_test, False)
 loader_test = DataLoader(test_data, batch_size=70)
-
-
-# In[ ]:
-
-
+#%%
 print(np.histogram(y_train))
-
-
-# In[ ]:
-
-
+#%%
 # Test with MNIST
 '''
 import torchvision.datasets as dset
@@ -96,23 +84,19 @@ transform = T.Compose([
             ])
 mnist_train = dset.MNIST('./mnist', train=True, download=True,
                              transform=transform)
-loader_train = DataLoader(mnist_train, batch_size=64, 
+loader_train = DataLoader(mnist_train, batch_size=64,
                           sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN)))
 
 mnist_val = dset.MNIST('./mnist', train=True, download=True,
                            transform=transform)
-loader_val = DataLoader(mnist_val, batch_size=64, 
+loader_val = DataLoader(mnist_val, batch_size=64,
                         sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN, 60000)))
 
-mnist_test = dset.MNIST('./mnist', train=False, download=True, 
+mnist_test = dset.MNIST('./mnist', train=False, download=True,
                             transform=transform)
 loader_test = DataLoader(mnist_test, batch_size=64)
 '''
-
-
-# In[4]:
-
-
+#%%
 USE_GPU = True
 
 dtype = torch.float32 # we will be using float throughout this tutorial
@@ -126,16 +110,12 @@ else:
 print_every = 100
 
 print('using device:', device)
-
-
-# In[5]:
-
-
+#%%
 def check_accuracy(loader, model):
     if loader.dataset.train:
-        print('Checking accuracy on validation set')
+        logging.info('Checking accuracy on validation set')
     else:
-        print('Checking accuracy on test set')   
+        logging.info('Checking accuracy on test set')
     num_correct = 0
     num_samples = 0
     model.eval()  # set model to evaluation mode
@@ -148,21 +128,17 @@ def check_accuracy(loader, model):
             num_correct += (preds == y).sum()
             num_samples += preds.size(0)
         acc = float(num_correct) / num_samples
-        print('Got %d / %d correct (%.2f)' % (num_correct, num_samples, 100 * acc))
-
-
-# In[6]:
-
-
+        logging.info('Got %d / %d correct (%.2f)' % (num_correct, num_samples, 100 * acc))
+#%%
 def train(model, optimizer, epochs=1):
     """
     Train a model on CIFAR-10 using the PyTorch Module API.
-    
+
     Inputs:
     - model: A PyTorch Module giving the model to train.
     - optimizer: An Optimizer object we will use to train the model
     - epochs: (Optional) A Python integer giving the number of epochs to train for
-    
+
     Returns: Nothing, but prints model accuracies during training.
     """
     model = model.to(device=device)  # move the model parameters to CPU/GPU
@@ -188,78 +164,50 @@ def train(model, optimizer, epochs=1):
             optimizer.step()
 
             if t % print_every == 0:
-                print('Iteration %d, loss = %.4f' % (t, loss.item()))
+                logging.info('Epoch %d, Iteration %d, loss = %.4f' % (e, t, loss.item()))
                 check_accuracy(loader_val, model)
-                print()
+                # print()
+#%%
+#for i in range(50):
+    #r = -4 * np.random.rand()
+    #lr = 10**r
+    lr = 0.000362
+    #batch_size = 2**np.random.randint(0,9)
+    batch_size = 4
+    logging.info('Learning rate: %f, batch_size: %d' % (lr, batch_size))
+    loader_train = DataLoader(train_data, batch_size=batch_size, shuffle=True)
+    loader_val = DataLoader(val_data, batch_size=batch_size)
+    model = nn.Sequential(
+        nn.Conv2d(1,100,3),
+        nn.ReLU(),
+        nn.BatchNorm2d(100),
+        nn.MaxPool2d(2, 2),
+        nn.Conv2d(100,100,3),
+        nn.ReLU(),
+        nn.BatchNorm2d(100),
+        nn.MaxPool2d(2, 2),
+        nn.Conv2d(100,300,(2,3)),
+        nn.ReLU(),
+        nn.BatchNorm2d(300),
+        nn.MaxPool2d(2, 2),
+        nn.Conv2d(300,300,(1,7)),
+        nn.ReLU(),
+        nn.BatchNorm2d(300),
+        nn.MaxPool2d((1,2), stride=1),
+        nn.Conv2d(300,100,(1,3)),
+        nn.BatchNorm2d(100),
+        nn.Conv2d(100,100,(1,3)),
+        nn.BatchNorm2d(100),
+        nn.Flatten(),
+        nn.Linear(1900,6144),
+        nn.Linear(6144,2),
+    )
 
-
-# In[7]:
-
-
-model = nn.Sequential(
-                      nn.Conv2d(1,100,3),
-                      nn.ReLU(),
-                      nn.MaxPool2d(2, 2),
-                      nn.Dropout(0.25),
-                      nn.Conv2d(100,100,3),
-                      nn.ReLU(),
-                      nn.MaxPool2d(2, 2),
-                      nn.Dropout(0.25),
-                      nn.Conv2d(100,300,(2,3)),
-                      nn.ReLU(),
-                      nn.MaxPool2d(2, 2),
-                      nn.Dropout(0.25),
-                      nn.Conv2d(300,300,(1,7)),
-                      nn.ReLU(),
-                      nn.MaxPool2d((1,2), stride=1),
-                      nn.Dropout(0.25),
-                      nn.Conv2d(300,100,(1,3)),
-                      nn.Conv2d(100,100,(1,3)),
-                      nn.Flatten(),
-                      nn.Linear(1900,6144),
-                      nn.Linear(6144,2),
-)
-
-pred = model(next(iter(loader_train))[0])
-
-
-# In[8]:
-
-
-print(pred.shape)
-
-
-# In[9]:
-
-
-optimizer = torch.optim.Adamax(model.parameters(), lr=2e-3)
-train(model, optimizer, epohcs=10)
-
-
-# 
-
-# In[14]:
-
-
-best_model = model
-check_accuracy(loader_test, best_model)
-
-
-# In[115]:
-
-
-def count_parameters_in_MB(model):
-  return np.sum([v.size() for name, v in model.named_parameters() if "auxiliary" not in name])
-
-
-# In[116]:
-
-
-count_parameters_in_MB(model)
-
-
-# In[ ]:
-
-
-
-
+    # pred = model(next(iter(loader_train))[0])
+    #%%
+    # print(pred.shape)
+    #%%
+    optimizer = torch.optim.Adamax(model.parameters(), lr=lr)
+    train(model, optimizer, epochs=4)
+    check_accuracy(loader_test, model)
+#%% md
