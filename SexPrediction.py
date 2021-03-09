@@ -84,15 +84,15 @@ transform = T.Compose([
             ])
 mnist_train = dset.MNIST('./mnist', train=True, download=True,
                              transform=transform)
-loader_train = DataLoader(mnist_train, batch_size=64,
+loader_train = DataLoader(mnist_train, batch_size=64, 
                           sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN)))
 
 mnist_val = dset.MNIST('./mnist', train=True, download=True,
                            transform=transform)
-loader_val = DataLoader(mnist_val, batch_size=64,
+loader_val = DataLoader(mnist_val, batch_size=64, 
                         sampler=sampler.SubsetRandomSampler(range(NUM_TRAIN, 60000)))
 
-mnist_test = dset.MNIST('./mnist', train=False, download=True,
+mnist_test = dset.MNIST('./mnist', train=False, download=True, 
                             transform=transform)
 loader_test = DataLoader(mnist_test, batch_size=64)
 '''
@@ -168,7 +168,7 @@ def train(model, optimizer, epochs=1):
                 check_accuracy(loader_val, model)
                 # print()
 #%%
-#for i in range(50):
+for i in range(1):
     #r = -4 * np.random.rand()
     #lr = 10**r
     lr = 0.000362
@@ -180,24 +180,22 @@ def train(model, optimizer, epochs=1):
     model = nn.Sequential(
         nn.Conv2d(1,100,3),
         nn.ReLU(),
-        nn.BatchNorm2d(100),
         nn.MaxPool2d(2, 2),
+        nn.Dropout(0.25),
         nn.Conv2d(100,100,3),
         nn.ReLU(),
-        nn.BatchNorm2d(100),
         nn.MaxPool2d(2, 2),
+        nn.Dropout(0.25),
         nn.Conv2d(100,300,(2,3)),
         nn.ReLU(),
-        nn.BatchNorm2d(300),
         nn.MaxPool2d(2, 2),
+        nn.Dropout(0.25),
         nn.Conv2d(300,300,(1,7)),
         nn.ReLU(),
-        nn.BatchNorm2d(300),
         nn.MaxPool2d((1,2), stride=1),
+        nn.Dropout(0.25),
         nn.Conv2d(300,100,(1,3)),
-        nn.BatchNorm2d(100),
         nn.Conv2d(100,100,(1,3)),
-        nn.BatchNorm2d(100),
         nn.Flatten(),
         nn.Linear(1900,6144),
         nn.Linear(6144,2),
@@ -208,6 +206,8 @@ def train(model, optimizer, epochs=1):
     # print(pred.shape)
     #%%
     optimizer = torch.optim.Adamax(model.parameters(), lr=lr)
-    train(model, optimizer, epochs=4)
+    train(model, optimizer, epochs=10)
     check_accuracy(loader_test, model)
+    torch.save(model.state_dict(), 'logs/model_saved')
 #%% md
+

@@ -1,0 +1,312 @@
+2021-03-09 01:30:09,037 Learning rate: 0.000362, batch_size: 4
+2021-03-09 01:30:16,500 Epoch 0, Iteration 0, loss = 1.0394
+2021-03-09 01:30:16,501 Checking accuracy on validation set
+2021-03-09 01:30:34,736 Got 19756 / 39868 correct (49.55)
+2021-03-09 01:30:36,392 Epoch 0, Iteration 100, loss = 3.8633
+2021-03-09 01:30:36,392 Checking accuracy on validation set
+2021-03-09 01:30:55,366 Got 19993 / 39868 correct (50.15)
+2021-03-09 01:30:57,127 Epoch 0, Iteration 200, loss = 1.0807
+2021-03-09 01:30:57,127 Checking accuracy on validation set
+2021-03-09 01:31:16,482 Got 19906 / 39868 correct (49.93)
+2021-03-09 01:31:18,154 Epoch 0, Iteration 300, loss = 0.4190
+2021-03-09 01:31:18,154 Checking accuracy on validation set
+2021-03-09 01:31:36,658 Got 19916 / 39868 correct (49.95)
+2021-03-09 01:31:38,402 Epoch 0, Iteration 400, loss = 0.3493
+2021-03-09 01:31:38,403 Checking accuracy on validation set
+2021-03-09 01:31:56,918 Got 19929 / 39868 correct (49.99)
+2021-03-09 01:31:58,674 Epoch 0, Iteration 500, loss = 0.5818
+2021-03-09 01:31:58,674 Checking accuracy on validation set
+2021-03-09 01:32:16,747 Got 20001 / 39868 correct (50.17)
+2021-03-09 01:32:18,455 Epoch 0, Iteration 600, loss = 0.5768
+2021-03-09 01:32:18,456 Checking accuracy on validation set
+2021-03-09 01:32:36,368 Got 23744 / 39868 correct (59.56)
+2021-03-09 01:32:38,157 Epoch 0, Iteration 700, loss = 0.7366
+2021-03-09 01:32:38,157 Checking accuracy on validation set
+2021-03-09 01:32:57,036 Got 24094 / 39868 correct (60.43)
+2021-03-09 01:32:58,720 Epoch 0, Iteration 800, loss = 0.8604
+2021-03-09 01:32:58,720 Checking accuracy on validation set
+2021-03-09 01:33:17,374 Got 19757 / 39868 correct (49.56)
+2021-03-09 01:33:19,192 Epoch 0, Iteration 900, loss = 0.9856
+2021-03-09 01:33:19,192 Checking accuracy on validation set
+2021-03-09 01:33:38,938 Got 22318 / 39868 correct (55.98)
+2021-03-09 01:33:40,795 Epoch 0, Iteration 1000, loss = 0.4117
+2021-03-09 01:33:40,796 Checking accuracy on validation set
+2021-03-09 01:33:58,619 Got 19981 / 39868 correct (50.12)
+2021-03-09 01:34:00,295 Epoch 0, Iteration 1100, loss = 0.6985
+2021-03-09 01:34:00,295 Checking accuracy on validation set
+2021-03-09 01:34:18,843 Got 20166 / 39868 correct (50.58)
+2021-03-09 01:34:20,482 Epoch 0, Iteration 1200, loss = 0.6569
+2021-03-09 01:34:20,482 Checking accuracy on validation set
+2021-03-09 01:34:38,592 Got 19967 / 39868 correct (50.08)
+2021-03-09 01:34:40,465 Epoch 0, Iteration 1300, loss = 0.5460
+2021-03-09 01:34:40,465 Checking accuracy on validation set
+2021-03-09 01:34:58,798 Got 19980 / 39868 correct (50.12)
+2021-03-09 01:35:00,420 Epoch 0, Iteration 1400, loss = 0.5217
+2021-03-09 01:35:00,420 Checking accuracy on validation set
+2021-03-09 01:35:19,661 Got 20002 / 39868 correct (50.17)
+2021-03-09 01:35:21,290 Epoch 0, Iteration 1500, loss = 0.8285
+2021-03-09 01:35:21,291 Checking accuracy on validation set
+2021-03-09 01:35:39,927 Got 19947 / 39868 correct (50.03)
+2021-03-09 01:35:41,649 Epoch 0, Iteration 1600, loss = 0.4268
+2021-03-09 01:35:41,649 Checking accuracy on validation set
+2021-03-09 01:36:00,052 Got 24409 / 39868 correct (61.22)
+2021-03-09 01:36:01,833 Epoch 0, Iteration 1700, loss = 0.9320
+2021-03-09 01:36:01,833 Checking accuracy on validation set
+2021-03-09 01:36:19,903 Got 20281 / 39868 correct (50.87)
+2021-03-09 01:36:21,575 Epoch 0, Iteration 1800, loss = 0.7483
+2021-03-09 01:36:21,575 Checking accuracy on validation set
+2021-03-09 01:36:39,565 Got 19928 / 39868 correct (49.98)
+2021-03-09 01:36:41,305 Epoch 0, Iteration 1900, loss = 0.7961
+2021-03-09 01:36:41,306 Checking accuracy on validation set
+2021-03-09 01:36:59,605 Got 19941 / 39868 correct (50.02)
+2021-03-09 01:37:01,317 Epoch 0, Iteration 2000, loss = 0.8223
+2021-03-09 01:37:01,317 Checking accuracy on validation set
+2021-03-09 01:37:20,877 Got 24314 / 39868 correct (60.99)
+2021-03-09 01:37:22,580 Epoch 0, Iteration 2100, loss = 0.7278
+2021-03-09 01:37:22,580 Checking accuracy on validation set
+2021-03-09 01:37:41,645 Got 19904 / 39868 correct (49.92)
+2021-03-09 01:37:43,417 Epoch 0, Iteration 2200, loss = 0.6194
+2021-03-09 01:37:43,417 Checking accuracy on validation set
+2021-03-09 01:38:01,501 Got 19961 / 39868 correct (50.07)
+2021-03-09 01:38:03,282 Epoch 0, Iteration 2300, loss = 0.6818
+2021-03-09 01:38:03,282 Checking accuracy on validation set
+2021-03-09 01:38:23,298 Got 21616 / 39868 correct (54.22)
+2021-03-09 01:38:25,122 Epoch 0, Iteration 2400, loss = 0.8112
+2021-03-09 01:38:25,123 Checking accuracy on validation set
+2021-03-09 01:38:43,096 Got 23378 / 39868 correct (58.64)
+2021-03-09 01:38:44,819 Epoch 0, Iteration 2500, loss = 0.5306
+2021-03-09 01:38:44,819 Checking accuracy on validation set
+2021-03-09 01:39:03,245 Got 19893 / 39868 correct (49.90)
+2021-03-09 01:39:05,072 Epoch 0, Iteration 2600, loss = 0.4491
+2021-03-09 01:39:05,072 Checking accuracy on validation set
+2021-03-09 01:39:24,148 Got 21783 / 39868 correct (54.64)
+2021-03-09 01:39:25,874 Epoch 0, Iteration 2700, loss = 0.5840
+2021-03-09 01:39:25,874 Checking accuracy on validation set
+2021-03-09 01:39:44,626 Got 21306 / 39868 correct (53.44)
+2021-03-09 01:39:46,405 Epoch 0, Iteration 2800, loss = 0.6144
+2021-03-09 01:39:46,405 Checking accuracy on validation set
+2021-03-09 01:40:05,628 Got 19871 / 39868 correct (49.84)
+2021-03-09 01:40:07,504 Epoch 0, Iteration 2900, loss = 0.8054
+2021-03-09 01:40:07,505 Checking accuracy on validation set
+2021-03-09 01:40:26,640 Got 25206 / 39868 correct (63.22)
+2021-03-09 01:40:28,472 Epoch 0, Iteration 3000, loss = 1.0439
+2021-03-09 01:40:28,472 Checking accuracy on validation set
+2021-03-09 01:40:47,129 Got 22149 / 39868 correct (55.56)
+2021-03-09 01:40:48,866 Epoch 0, Iteration 3100, loss = 1.0940
+2021-03-09 01:40:48,867 Checking accuracy on validation set
+2021-03-09 01:41:08,920 Got 22580 / 39868 correct (56.64)
+2021-03-09 01:41:10,663 Epoch 0, Iteration 3200, loss = 1.0629
+2021-03-09 01:41:10,663 Checking accuracy on validation set
+2021-03-09 01:41:29,864 Got 20174 / 39868 correct (50.60)
+2021-03-09 01:41:31,623 Epoch 0, Iteration 3300, loss = 0.9034
+2021-03-09 01:41:31,623 Checking accuracy on validation set
+2021-03-09 01:41:50,281 Got 20009 / 39868 correct (50.19)
+2021-03-09 01:41:52,040 Epoch 0, Iteration 3400, loss = 0.5766
+2021-03-09 01:41:52,041 Checking accuracy on validation set
+2021-03-09 01:42:11,249 Got 20915 / 39868 correct (52.46)
+2021-03-09 01:42:13,008 Epoch 0, Iteration 3500, loss = 0.7280
+2021-03-09 01:42:13,009 Checking accuracy on validation set
+2021-03-09 01:42:31,435 Got 20183 / 39868 correct (50.62)
+2021-03-09 01:42:33,230 Epoch 0, Iteration 3600, loss = 0.7144
+2021-03-09 01:42:33,230 Checking accuracy on validation set
+2021-03-09 01:42:51,273 Got 19998 / 39868 correct (50.16)
+2021-03-09 01:42:53,142 Epoch 0, Iteration 3700, loss = 0.6377
+2021-03-09 01:42:53,142 Checking accuracy on validation set
+2021-03-09 01:43:12,267 Got 23563 / 39868 correct (59.10)
+2021-03-09 01:43:13,997 Epoch 0, Iteration 3800, loss = 0.4929
+2021-03-09 01:43:13,998 Checking accuracy on validation set
+2021-03-09 01:43:33,082 Got 24345 / 39868 correct (61.06)
+2021-03-09 01:43:34,887 Epoch 0, Iteration 3900, loss = 0.8555
+2021-03-09 01:43:34,887 Checking accuracy on validation set
+2021-03-09 01:43:54,332 Got 25034 / 39868 correct (62.79)
+2021-03-09 01:43:56,131 Epoch 0, Iteration 4000, loss = 0.7315
+2021-03-09 01:43:56,131 Checking accuracy on validation set
+2021-03-09 01:44:14,679 Got 25863 / 39868 correct (64.87)
+2021-03-09 01:44:16,476 Epoch 0, Iteration 4100, loss = 0.6999
+2021-03-09 01:44:16,476 Checking accuracy on validation set
+2021-03-09 01:44:35,532 Got 25309 / 39868 correct (63.48)
+2021-03-09 01:44:37,347 Epoch 0, Iteration 4200, loss = 0.8210
+2021-03-09 01:44:37,347 Checking accuracy on validation set
+2021-03-09 01:44:56,877 Got 19935 / 39868 correct (50.00)
+2021-03-09 01:44:58,727 Epoch 0, Iteration 4300, loss = 1.2338
+2021-03-09 01:44:58,727 Checking accuracy on validation set
+2021-03-09 01:45:17,785 Got 21287 / 39868 correct (53.39)
+2021-03-09 01:45:19,488 Epoch 0, Iteration 4400, loss = 0.7076
+2021-03-09 01:45:19,488 Checking accuracy on validation set
+2021-03-09 01:45:39,068 Got 21499 / 39868 correct (53.93)
+2021-03-09 01:45:40,909 Epoch 0, Iteration 4500, loss = 0.9362
+2021-03-09 01:45:40,909 Checking accuracy on validation set
+2021-03-09 01:45:59,783 Got 25010 / 39868 correct (62.73)
+2021-03-09 01:46:01,550 Epoch 0, Iteration 4600, loss = 0.5543
+2021-03-09 01:46:01,550 Checking accuracy on validation set
+2021-03-09 01:46:20,025 Got 20779 / 39868 correct (52.12)
+2021-03-09 01:46:21,653 Epoch 0, Iteration 4700, loss = 0.6280
+2021-03-09 01:46:21,653 Checking accuracy on validation set
+2021-03-09 01:46:40,407 Got 20239 / 39868 correct (50.77)
+2021-03-09 01:46:42,146 Epoch 0, Iteration 4800, loss = 1.2266
+2021-03-09 01:46:42,146 Checking accuracy on validation set
+2021-03-09 01:47:01,335 Got 19875 / 39868 correct (49.85)
+2021-03-09 01:47:03,134 Epoch 0, Iteration 4900, loss = 0.8607
+2021-03-09 01:47:03,134 Checking accuracy on validation set
+2021-03-09 01:47:22,753 Got 22193 / 39868 correct (55.67)
+2021-03-09 01:47:24,504 Epoch 0, Iteration 5000, loss = 0.8093
+2021-03-09 01:47:24,504 Checking accuracy on validation set
+2021-03-09 01:47:43,781 Got 20135 / 39868 correct (50.50)
+2021-03-09 01:47:45,511 Epoch 0, Iteration 5100, loss = 0.7331
+2021-03-09 01:47:45,511 Checking accuracy on validation set
+2021-03-09 01:48:04,315 Got 20314 / 39868 correct (50.95)
+2021-03-09 01:48:06,004 Epoch 0, Iteration 5200, loss = 0.6297
+2021-03-09 01:48:06,004 Checking accuracy on validation set
+2021-03-09 01:48:26,075 Got 23958 / 39868 correct (60.09)
+2021-03-09 01:48:27,819 Epoch 0, Iteration 5300, loss = 0.8724
+2021-03-09 01:48:27,819 Checking accuracy on validation set
+2021-03-09 01:48:47,454 Got 23064 / 39868 correct (57.85)
+2021-03-09 01:48:49,194 Epoch 0, Iteration 5400, loss = 0.3733
+2021-03-09 01:48:49,194 Checking accuracy on validation set
+2021-03-09 01:49:08,141 Got 24958 / 39868 correct (62.60)
+2021-03-09 01:49:09,793 Epoch 0, Iteration 5500, loss = 1.0182
+2021-03-09 01:49:09,793 Checking accuracy on validation set
+2021-03-09 01:49:27,846 Got 23949 / 39868 correct (60.07)
+2021-03-09 01:49:29,541 Epoch 0, Iteration 5600, loss = 0.4087
+2021-03-09 01:49:29,541 Checking accuracy on validation set
+2021-03-09 01:49:47,271 Got 22475 / 39868 correct (56.37)
+2021-03-09 01:49:48,890 Epoch 0, Iteration 5700, loss = 0.8427
+2021-03-09 01:49:48,891 Checking accuracy on validation set
+2021-03-09 01:50:06,129 Got 24521 / 39868 correct (61.51)
+2021-03-09 01:50:07,783 Epoch 0, Iteration 5800, loss = 0.5936
+2021-03-09 01:50:07,784 Checking accuracy on validation set
+2021-03-09 01:50:24,882 Got 25204 / 39868 correct (63.22)
+2021-03-09 01:50:26,438 Epoch 0, Iteration 5900, loss = 0.5400
+2021-03-09 01:50:26,438 Checking accuracy on validation set
+2021-03-09 01:50:43,649 Got 25552 / 39868 correct (64.09)
+2021-03-09 01:50:45,299 Epoch 0, Iteration 6000, loss = 0.5374
+2021-03-09 01:50:45,299 Checking accuracy on validation set
+2021-03-09 01:51:02,512 Got 20400 / 39868 correct (51.17)
+2021-03-09 01:51:04,163 Epoch 0, Iteration 6100, loss = 0.9191
+2021-03-09 01:51:04,164 Checking accuracy on validation set
+2021-03-09 01:51:21,849 Got 21864 / 39868 correct (54.84)
+2021-03-09 01:51:23,565 Epoch 0, Iteration 6200, loss = 0.5595
+2021-03-09 01:51:23,565 Checking accuracy on validation set
+2021-03-09 01:51:40,827 Got 20065 / 39868 correct (50.33)
+2021-03-09 01:51:42,454 Epoch 0, Iteration 6300, loss = 0.7070
+2021-03-09 01:51:42,454 Checking accuracy on validation set
+2021-03-09 01:51:59,597 Got 23215 / 39868 correct (58.23)
+2021-03-09 01:52:01,310 Epoch 0, Iteration 6400, loss = 0.9720
+2021-03-09 01:52:01,311 Checking accuracy on validation set
+2021-03-09 01:52:18,686 Got 21873 / 39868 correct (54.86)
+2021-03-09 01:52:20,254 Epoch 0, Iteration 6500, loss = 0.4249
+2021-03-09 01:52:20,254 Checking accuracy on validation set
+2021-03-09 01:52:37,931 Got 19853 / 39868 correct (49.80)
+2021-03-09 01:52:39,547 Epoch 0, Iteration 6600, loss = 0.2022
+2021-03-09 01:52:39,547 Checking accuracy on validation set
+2021-03-09 01:52:56,928 Got 22685 / 39868 correct (56.90)
+2021-03-09 01:52:58,581 Epoch 0, Iteration 6700, loss = 0.3766
+2021-03-09 01:52:58,582 Checking accuracy on validation set
+2021-03-09 01:53:16,397 Got 25225 / 39868 correct (63.27)
+2021-03-09 01:53:18,020 Epoch 0, Iteration 6800, loss = 0.5475
+2021-03-09 01:53:18,020 Checking accuracy on validation set
+2021-03-09 01:53:35,721 Got 21121 / 39868 correct (52.98)
+2021-03-09 01:53:37,302 Epoch 0, Iteration 6900, loss = 0.8746
+2021-03-09 01:53:37,302 Checking accuracy on validation set
+2021-03-09 01:53:54,956 Got 19961 / 39868 correct (50.07)
+2021-03-09 01:53:56,614 Epoch 0, Iteration 7000, loss = 0.6820
+2021-03-09 01:53:56,615 Checking accuracy on validation set
+2021-03-09 01:54:14,243 Got 20814 / 39868 correct (52.21)
+2021-03-09 01:54:15,837 Epoch 0, Iteration 7100, loss = 0.2948
+2021-03-09 01:54:15,838 Checking accuracy on validation set
+2021-03-09 01:54:33,766 Got 25383 / 39868 correct (63.67)
+2021-03-09 01:54:35,306 Epoch 0, Iteration 7200, loss = 0.3633
+2021-03-09 01:54:35,306 Checking accuracy on validation set
+2021-03-09 01:54:53,472 Got 20012 / 39868 correct (50.20)
+2021-03-09 01:54:55,173 Epoch 0, Iteration 7300, loss = 0.6370
+2021-03-09 01:54:55,173 Checking accuracy on validation set
+2021-03-09 01:55:12,525 Got 21305 / 39868 correct (53.44)
+2021-03-09 01:55:14,102 Epoch 0, Iteration 7400, loss = 0.5896
+2021-03-09 01:55:14,102 Checking accuracy on validation set
+2021-03-09 01:55:32,240 Got 25077 / 39868 correct (62.90)
+2021-03-09 01:55:33,964 Epoch 0, Iteration 7500, loss = 0.4663
+2021-03-09 01:55:33,964 Checking accuracy on validation set
+2021-03-09 01:55:51,947 Got 20532 / 39868 correct (51.50)
+2021-03-09 01:55:53,579 Epoch 0, Iteration 7600, loss = 0.3627
+2021-03-09 01:55:53,579 Checking accuracy on validation set
+2021-03-09 01:56:11,286 Got 19981 / 39868 correct (50.12)
+2021-03-09 01:56:12,920 Epoch 0, Iteration 7700, loss = 0.9558
+2021-03-09 01:56:12,920 Checking accuracy on validation set
+2021-03-09 01:56:30,513 Got 25977 / 39868 correct (65.16)
+2021-03-09 01:56:32,176 Epoch 0, Iteration 7800, loss = 0.3050
+2021-03-09 01:56:32,177 Checking accuracy on validation set
+2021-03-09 01:56:49,916 Got 24667 / 39868 correct (61.87)
+2021-03-09 01:56:51,622 Epoch 0, Iteration 7900, loss = 1.0450
+2021-03-09 01:56:51,623 Checking accuracy on validation set
+2021-03-09 01:57:09,934 Got 25370 / 39868 correct (63.63)
+2021-03-09 01:57:11,601 Epoch 0, Iteration 8000, loss = 0.4126
+2021-03-09 01:57:11,601 Checking accuracy on validation set
+2021-03-09 01:57:29,611 Got 21461 / 39868 correct (53.83)
+2021-03-09 01:57:31,277 Epoch 0, Iteration 8100, loss = 0.7390
+2021-03-09 01:57:31,277 Checking accuracy on validation set
+2021-03-09 01:57:49,123 Got 24878 / 39868 correct (62.40)
+2021-03-09 01:57:50,712 Epoch 0, Iteration 8200, loss = 0.4535
+2021-03-09 01:57:50,712 Checking accuracy on validation set
+2021-03-09 01:58:07,850 Got 26189 / 39868 correct (65.69)
+2021-03-09 01:58:09,491 Epoch 0, Iteration 8300, loss = 0.5366
+2021-03-09 01:58:09,491 Checking accuracy on validation set
+2021-03-09 01:58:27,494 Got 23767 / 39868 correct (59.61)
+2021-03-09 01:58:29,202 Epoch 0, Iteration 8400, loss = 0.7973
+2021-03-09 01:58:29,203 Checking accuracy on validation set
+2021-03-09 01:58:47,442 Got 20144 / 39868 correct (50.53)
+2021-03-09 01:58:49,056 Epoch 0, Iteration 8500, loss = 0.8811
+2021-03-09 01:58:49,056 Checking accuracy on validation set
+2021-03-09 01:59:06,963 Got 19919 / 39868 correct (49.96)
+2021-03-09 01:59:08,631 Epoch 0, Iteration 8600, loss = 0.3918
+2021-03-09 01:59:08,632 Checking accuracy on validation set
+2021-03-09 01:59:25,493 Got 21611 / 39868 correct (54.21)
+2021-03-09 01:59:27,127 Epoch 0, Iteration 8700, loss = 0.4192
+2021-03-09 01:59:27,127 Checking accuracy on validation set
+2021-03-09 01:59:43,842 Got 19980 / 39868 correct (50.12)
+2021-03-09 01:59:45,333 Epoch 0, Iteration 8800, loss = 0.3707
+2021-03-09 01:59:45,333 Checking accuracy on validation set
+2021-03-09 02:00:02,045 Got 26825 / 39868 correct (67.28)
+2021-03-09 02:00:03,697 Epoch 0, Iteration 8900, loss = 0.6931
+2021-03-09 02:00:03,697 Checking accuracy on validation set
+2021-03-09 02:00:20,776 Got 24146 / 39868 correct (60.56)
+2021-03-09 02:00:22,321 Epoch 0, Iteration 9000, loss = 0.4767
+2021-03-09 02:00:22,321 Checking accuracy on validation set
+2021-03-09 02:00:39,195 Got 26186 / 39868 correct (65.68)
+2021-03-09 02:00:40,707 Epoch 0, Iteration 9100, loss = 0.7787
+2021-03-09 02:00:40,708 Checking accuracy on validation set
+2021-03-09 02:00:57,651 Got 21107 / 39868 correct (52.94)
+2021-03-09 02:00:59,226 Epoch 0, Iteration 9200, loss = 0.8613
+2021-03-09 02:00:59,226 Checking accuracy on validation set
+2021-03-09 02:01:16,175 Got 21675 / 39868 correct (54.37)
+2021-03-09 02:01:17,730 Epoch 0, Iteration 9300, loss = 0.8099
+2021-03-09 02:01:17,730 Checking accuracy on validation set
+2021-03-09 02:01:34,640 Got 20811 / 39868 correct (52.20)
+2021-03-09 02:01:36,284 Epoch 0, Iteration 9400, loss = 0.5788
+2021-03-09 02:01:36,284 Checking accuracy on validation set
+2021-03-09 02:01:53,456 Got 21888 / 39868 correct (54.90)
+2021-03-09 02:01:55,142 Epoch 0, Iteration 9500, loss = 0.5283
+2021-03-09 02:01:55,142 Checking accuracy on validation set
+2021-03-09 02:02:12,140 Got 25988 / 39868 correct (65.19)
+2021-03-09 02:02:13,834 Epoch 0, Iteration 9600, loss = 0.5306
+2021-03-09 02:02:13,834 Checking accuracy on validation set
+2021-03-09 02:02:30,843 Got 24029 / 39868 correct (60.27)
+2021-03-09 02:02:32,402 Epoch 0, Iteration 9700, loss = 0.7164
+2021-03-09 02:02:32,402 Checking accuracy on validation set
+2021-03-09 02:02:49,069 Got 20815 / 39868 correct (52.21)
+2021-03-09 02:02:50,497 Epoch 0, Iteration 9800, loss = 0.6784
+2021-03-09 02:02:50,497 Checking accuracy on validation set
+2021-03-09 02:03:07,117 Got 21514 / 39868 correct (53.96)
+2021-03-09 02:03:08,550 Epoch 0, Iteration 9900, loss = 0.7697
+2021-03-09 02:03:08,550 Checking accuracy on validation set
+2021-03-09 02:03:25,170 Got 25944 / 39868 correct (65.07)
+2021-03-09 02:03:26,562 Epoch 0, Iteration 10000, loss = 0.3895
+2021-03-09 02:03:26,562 Checking accuracy on validation set
+2021-03-09 02:03:43,209 Got 19908 / 39868 correct (49.93)
+2021-03-09 02:03:44,615 Epoch 0, Iteration 10100, loss = 0.6083
+2021-03-09 02:03:44,615 Checking accuracy on validation set
+2021-03-09 02:04:01,213 Got 25487 / 39868 correct (63.93)
+2021-03-09 02:04:02,614 Epoch 0, Iteration 10200, loss = 0.7856
+2021-03-09 02:04:02,614 Checking accuracy on validation set
+2021-03-09 02:04:19,219 Got 19960 / 39868 correct (50.07)
+2021-03-09 02:04:20,684 Epoch 0, Iteration 10300, loss = 0.3871
+2021-03-09 02:04:20,685 Checking accuracy on validation set
