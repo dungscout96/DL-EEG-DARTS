@@ -208,6 +208,6 @@ for i in range(1):
     optimizer = torch.optim.Adamax(model.parameters(), lr=lr)
     train(model, optimizer, epochs=10)
     check_accuracy(loader_test, model)
-    torch.save(model.state_dict(), 'logs')
+    torch.save(model.state_dict(), 'logs/model_saved')
 #%% md
 
