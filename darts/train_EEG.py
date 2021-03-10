@@ -120,6 +120,7 @@ def main():
     train_acc, train_obj = train(train_queue, valid_queue, model, architect, criterion, optimizer, lr)
     logging.info('train_acc %f', train_acc)
 
+    utils.save(model, os.path.join(args.save, 'weights.pt'))
     # validation
     valid_acc, valid_obj = infer(valid_queue, model, criterion)
     logging.info('valid_acc %f', valid_acc)
@@ -183,7 +184,7 @@ def infer(valid_queue, model, criterion):
     # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
     prec1 = utils.accuracy(logits, target)
     n = input.size(0)
-    objs.update(loss.data[0], n)
+    objs.update(loss.data, n)
     top1.update(prec1[0], n)
     # top5.update(prec5.data[0], n)
 
