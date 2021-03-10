@@ -87,7 +87,7 @@ def main():
 
   # train_transform, valid_transform = utils._data_transforms_cifar10(args)
   # train_data = dset.CIFAR10(root=args.data, train=True, download=True, transform=train_transform)
-  train_data, val_data = utils._get_EEG_data(args)
+  train_data, val_data = utils._get_train_EEG_data(args)
   num_train = len(train_data)
   # indices = list(range(num_train))
   # split = int(np.floor(args.train_portion * num_train))
