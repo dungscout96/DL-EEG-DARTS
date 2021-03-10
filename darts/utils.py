@@ -58,7 +58,7 @@ class Cutout(object):
         img *= mask
         return img
 
-def _get_EEG_data(args):
+def _get_train_EEG_data(args):
     f = h5py.File(f'{args.data}/child_mind_x_train_v2.mat', 'r')
     x_train = f['X_train']
     x_train = np.reshape(x_train, (-1, 24, 256, 1))
@@ -79,6 +79,16 @@ def _get_EEG_data(args):
 
     return train_data, val_data
 
+def _get_test_EEG_data(args):
+    f = h5py.File(f'{args.data}/child_mind_x_test_v2.mat', 'r')
+    x_test = f['X_test']
+    x_test = np.reshape(x_test, (-1, 24, 256, 1))
+    print('X_test shape: ' + str(x_test.shape))
+    f = h5py.File(f'{args.data}/child_mind_y_test_v2.mat', 'r')
+    y_test = f['Y_test']
+    print('Y_test shape: ' + str(y_test.shape))
+    test_data = EEGDataset(x_test, y_test, True, transform=transforms.ToTensor())
+    return test_data
 
 def _data_transforms_cifar10(args):
   CIFAR_MEAN = [0.49139968, 0.48215827, 0.44653124]
