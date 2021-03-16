@@ -1,0 +1,1842 @@
+Epoch 0, Iteration 0, loss = 0.6737
+Checking accuracy on validation set
+Got 21331 / 39868 correct (53.50)
+
+Epoch 0, Iteration 100, loss = 0.5671
+Checking accuracy on validation set
+Got 26061 / 39868 correct (65.37)
+
+Epoch 0, Iteration 200, loss = 0.5645
+Checking accuracy on validation set
+Got 24446 / 39868 correct (61.32)
+
+Epoch 0, Iteration 300, loss = 0.5091
+Checking accuracy on validation set
+Got 25829 / 39868 correct (64.79)
+
+Epoch 0, Iteration 400, loss = 0.5236
+Checking accuracy on validation set
+Got 24992 / 39868 correct (62.69)
+
+Epoch 0, Iteration 500, loss = 0.6271
+Checking accuracy on validation set
+Got 26585 / 39868 correct (66.68)
+
+Epoch 0, Iteration 600, loss = 0.5687
+Checking accuracy on validation set
+Got 25580 / 39868 correct (64.16)
+
+Epoch 0, Iteration 700, loss = 0.5086
+Checking accuracy on validation set
+Got 26535 / 39868 correct (66.56)
+
+Epoch 0, Iteration 800, loss = 0.6476
+Checking accuracy on validation set
+Got 26446 / 39868 correct (66.33)
+
+Epoch 0, Iteration 900, loss = 0.5682
+Checking accuracy on validation set
+Got 25923 / 39868 correct (65.02)
+
+Epoch 0, Iteration 1000, loss = 0.5862
+Checking accuracy on validation set
+Got 26015 / 39868 correct (65.25)
+
+Epoch 0, Iteration 1100, loss = 0.5437
+Checking accuracy on validation set
+Got 25848 / 39868 correct (64.83)
+
+Epoch 0, Iteration 1200, loss = 0.7313
+Checking accuracy on validation set
+Got 25687 / 39868 correct (64.43)
+
+Epoch 0, Iteration 1300, loss = 0.5716
+Checking accuracy on validation set
+Got 26494 / 39868 correct (66.45)
+
+Epoch 0, Iteration 1400, loss = 0.5530
+Checking accuracy on validation set
+Got 26333 / 39868 correct (66.05)
+
+Epoch 0, Iteration 1500, loss = 0.7558
+Checking accuracy on validation set
+Got 25001 / 39868 correct (62.71)
+
+Epoch 0, Iteration 1600, loss = 0.7246
+Checking accuracy on validation set
+Got 26155 / 39868 correct (65.60)
+
+Epoch 0, Iteration 1700, loss = 0.3261
+Checking accuracy on validation set
+Got 26202 / 39868 correct (65.72)
+
+Epoch 0, Iteration 1800, loss = 0.4856
+Checking accuracy on validation set
+Got 26057 / 39868 correct (65.36)
+
+Epoch 0, Iteration 1900, loss = 0.6444
+Checking accuracy on validation set
+Got 26468 / 39868 correct (66.39)
+
+Epoch 0, Iteration 2000, loss = 0.5923
+Checking accuracy on validation set
+Got 25762 / 39868 correct (64.62)
+
+Epoch 0, Iteration 2100, loss = 0.5523
+Checking accuracy on validation set
+Got 26728 / 39868 correct (67.04)
+
+Epoch 0, Iteration 2200, loss = 0.2773
+Checking accuracy on validation set
+Got 25375 / 39868 correct (63.65)
+
+Epoch 1, Iteration 0, loss = 0.5896
+Checking accuracy on validation set
+Got 25888 / 39868 correct (64.93)
+
+Epoch 1, Iteration 100, loss = 0.4582
+Checking accuracy on validation set
+Got 25759 / 39868 correct (64.61)
+
+Epoch 1, Iteration 200, loss = 0.7576
+Checking accuracy on validation set
+Got 25799 / 39868 correct (64.71)
+
+Epoch 1, Iteration 300, loss = 0.6569
+Checking accuracy on validation set
+Got 26069 / 39868 correct (65.39)
+
+Epoch 1, Iteration 400, loss = 0.5106
+Checking accuracy on validation set
+Got 26838 / 39868 correct (67.32)
+
+Epoch 1, Iteration 500, loss = 0.4829
+Checking accuracy on validation set
+Got 26479 / 39868 correct (66.42)
+
+Epoch 1, Iteration 600, loss = 0.6522
+Checking accuracy on validation set
+Got 26478 / 39868 correct (66.41)
+
+Epoch 1, Iteration 700, loss = 0.6396
+Checking accuracy on validation set
+Got 26176 / 39868 correct (65.66)
+
+Epoch 1, Iteration 800, loss = 0.7547
+Checking accuracy on validation set
+Got 25517 / 39868 correct (64.00)
+
+Epoch 1, Iteration 900, loss = 0.6237
+Checking accuracy on validation set
+Got 25542 / 39868 correct (64.07)
+
+Epoch 1, Iteration 1000, loss = 0.4149
+Checking accuracy on validation set
+Got 26785 / 39868 correct (67.18)
+
+Epoch 1, Iteration 1100, loss = 0.4111
+Checking accuracy on validation set
+Got 26379 / 39868 correct (66.17)
+
+Epoch 1, Iteration 1200, loss = 0.6582
+Checking accuracy on validation set
+Got 26390 / 39868 correct (66.19)
+
+Epoch 1, Iteration 1300, loss = 0.4604
+Checking accuracy on validation set
+Got 25796 / 39868 correct (64.70)
+
+Epoch 1, Iteration 1400, loss = 0.6026
+Checking accuracy on validation set
+Got 25453 / 39868 correct (63.84)
+
+Epoch 1, Iteration 1500, loss = 0.4834
+Checking accuracy on validation set
+Got 26015 / 39868 correct (65.25)
+
+Epoch 1, Iteration 1600, loss = 0.6089
+Checking accuracy on validation set
+Got 26504 / 39868 correct (66.48)
+
+Epoch 1, Iteration 1700, loss = 0.6414
+Checking accuracy on validation set
+Got 26545 / 39868 correct (66.58)
+
+Epoch 1, Iteration 1800, loss = 0.6589
+Checking accuracy on validation set
+Got 25920 / 39868 correct (65.01)
+
+Epoch 1, Iteration 1900, loss = 0.4862
+Checking accuracy on validation set
+Got 26819 / 39868 correct (67.27)
+
+Epoch 1, Iteration 2000, loss = 0.6383
+Checking accuracy on validation set
+Got 26530 / 39868 correct (66.54)
+
+Epoch 1, Iteration 2100, loss = 0.5227
+Checking accuracy on validation set
+Got 25931 / 39868 correct (65.04)
+
+Epoch 1, Iteration 2200, loss = 0.6025
+Checking accuracy on validation set
+Got 26780 / 39868 correct (67.17)
+
+Epoch 2, Iteration 0, loss = 0.6079
+Checking accuracy on validation set
+Got 25877 / 39868 correct (64.91)
+
+Epoch 2, Iteration 100, loss = 0.5448
+Checking accuracy on validation set
+Got 26195 / 39868 correct (65.70)
+
+Epoch 2, Iteration 200, loss = 0.5375
+Checking accuracy on validation set
+Got 26430 / 39868 correct (66.29)
+
+Epoch 2, Iteration 300, loss = 0.4163
+Checking accuracy on validation set
+Got 26208 / 39868 correct (65.74)
+
+Epoch 2, Iteration 400, loss = 0.4601
+Checking accuracy on validation set
+Got 25978 / 39868 correct (65.16)
+
+Epoch 2, Iteration 500, loss = 0.3914
+Checking accuracy on validation set
+Got 26838 / 39868 correct (67.32)
+
+Epoch 2, Iteration 600, loss = 0.5701
+Checking accuracy on validation set
+Got 26495 / 39868 correct (66.46)
+
+Epoch 2, Iteration 700, loss = 0.5824
+Checking accuracy on validation set
+Got 26125 / 39868 correct (65.53)
+
+Epoch 2, Iteration 800, loss = 0.4895
+Checking accuracy on validation set
+Got 27140 / 39868 correct (68.07)
+
+Epoch 2, Iteration 900, loss = 0.5353
+Checking accuracy on validation set
+Got 26559 / 39868 correct (66.62)
+
+Epoch 2, Iteration 1000, loss = 0.4995
+Checking accuracy on validation set
+Got 26857 / 39868 correct (67.36)
+
+Epoch 2, Iteration 1100, loss = 0.5110
+Checking accuracy on validation set
+Got 26508 / 39868 correct (66.49)
+
+Epoch 2, Iteration 1200, loss = 0.5496
+Checking accuracy on validation set
+Got 26315 / 39868 correct (66.01)
+
+Epoch 2, Iteration 1300, loss = 0.5253
+Checking accuracy on validation set
+Got 26789 / 39868 correct (67.19)
+
+Epoch 2, Iteration 1400, loss = 0.5444
+Checking accuracy on validation set
+Got 27143 / 39868 correct (68.08)
+
+Epoch 2, Iteration 1500, loss = 0.5312
+Checking accuracy on validation set
+Got 26696 / 39868 correct (66.96)
+
+Epoch 2, Iteration 1600, loss = 0.4987
+Checking accuracy on validation set
+Got 27109 / 39868 correct (68.00)
+
+Epoch 2, Iteration 1700, loss = 0.4971
+Checking accuracy on validation set
+Got 27004 / 39868 correct (67.73)
+
+Epoch 2, Iteration 1800, loss = 0.4183
+Checking accuracy on validation set
+Got 27332 / 39868 correct (68.56)
+
+Epoch 2, Iteration 1900, loss = 0.5147
+Checking accuracy on validation set
+Got 26772 / 39868 correct (67.15)
+
+Epoch 2, Iteration 2000, loss = 0.4299
+Checking accuracy on validation set
+Got 26966 / 39868 correct (67.64)
+
+Epoch 2, Iteration 2100, loss = 0.4549
+Checking accuracy on validation set
+Got 26694 / 39868 correct (66.96)
+
+Epoch 2, Iteration 2200, loss = 0.4878
+Checking accuracy on validation set
+Got 26824 / 39868 correct (67.28)
+
+Epoch 3, Iteration 0, loss = 0.5068
+Checking accuracy on validation set
+Got 25919 / 39868 correct (65.01)
+
+Epoch 3, Iteration 100, loss = 0.5368
+Checking accuracy on validation set
+Got 26765 / 39868 correct (67.13)
+
+Epoch 3, Iteration 200, loss = 0.8230
+Checking accuracy on validation set
+Got 27104 / 39868 correct (67.98)
+
+Epoch 3, Iteration 300, loss = 0.5175
+Checking accuracy on validation set
+Got 27091 / 39868 correct (67.95)
+
+Epoch 3, Iteration 400, loss = 0.5382
+Checking accuracy on validation set
+Got 27150 / 39868 correct (68.10)
+
+Epoch 3, Iteration 500, loss = 0.3932
+Checking accuracy on validation set
+Got 26432 / 39868 correct (66.30)
+
+Epoch 3, Iteration 600, loss = 0.6008
+Checking accuracy on validation set
+Got 27135 / 39868 correct (68.06)
+
+Epoch 3, Iteration 700, loss = 0.7316
+Checking accuracy on validation set
+Got 26473 / 39868 correct (66.40)
+
+Epoch 3, Iteration 800, loss = 0.5931
+Checking accuracy on validation set
+Got 26950 / 39868 correct (67.60)
+
+Epoch 3, Iteration 900, loss = 0.4628
+Checking accuracy on validation set
+Got 26371 / 39868 correct (66.15)
+
+Epoch 3, Iteration 1000, loss = 0.4404
+Checking accuracy on validation set
+Got 26592 / 39868 correct (66.70)
+
+Epoch 3, Iteration 1100, loss = 0.4291
+Checking accuracy on validation set
+Got 26620 / 39868 correct (66.77)
+
+Epoch 3, Iteration 1200, loss = 0.6561
+Checking accuracy on validation set
+Got 26691 / 39868 correct (66.95)
+
+Epoch 3, Iteration 1300, loss = 0.5092
+Checking accuracy on validation set
+Got 27248 / 39868 correct (68.35)
+
+Epoch 3, Iteration 1400, loss = 0.4556
+Checking accuracy on validation set
+Got 26530 / 39868 correct (66.54)
+
+Epoch 3, Iteration 1500, loss = 0.6204
+Checking accuracy on validation set
+Got 26842 / 39868 correct (67.33)
+
+Epoch 3, Iteration 1600, loss = 0.6675
+Checking accuracy on validation set
+Got 27036 / 39868 correct (67.81)
+
+Epoch 3, Iteration 1700, loss = 0.3923
+Checking accuracy on validation set
+Got 26925 / 39868 correct (67.54)
+
+Epoch 3, Iteration 1800, loss = 0.4222
+Checking accuracy on validation set
+Got 26255 / 39868 correct (65.85)
+
+Epoch 3, Iteration 1900, loss = 0.5395
+Checking accuracy on validation set
+Got 27314 / 39868 correct (68.51)
+
+Epoch 3, Iteration 2000, loss = 0.5548
+Checking accuracy on validation set
+Got 26296 / 39868 correct (65.96)
+
+Epoch 3, Iteration 2100, loss = 0.4541
+Checking accuracy on validation set
+Got 26525 / 39868 correct (66.53)
+
+Epoch 3, Iteration 2200, loss = 0.5401
+Checking accuracy on validation set
+Got 27000 / 39868 correct (67.72)
+
+Epoch 4, Iteration 0, loss = 0.6773
+Checking accuracy on validation set
+Got 25581 / 39868 correct (64.16)
+
+Epoch 4, Iteration 100, loss = 0.3838
+Checking accuracy on validation set
+Got 26941 / 39868 correct (67.58)
+
+Epoch 4, Iteration 200, loss = 0.6732
+Checking accuracy on validation set
+Got 27074 / 39868 correct (67.91)
+
+Epoch 4, Iteration 300, loss = 0.4947
+Checking accuracy on validation set
+Got 26842 / 39868 correct (67.33)
+
+Epoch 4, Iteration 400, loss = 0.5881
+Checking accuracy on validation set
+Got 26785 / 39868 correct (67.18)
+
+Epoch 4, Iteration 500, loss = 0.4493
+Checking accuracy on validation set
+Got 26921 / 39868 correct (67.53)
+
+Epoch 4, Iteration 600, loss = 0.5322
+Checking accuracy on validation set
+Got 26260 / 39868 correct (65.87)
+
+Epoch 4, Iteration 700, loss = 0.4373
+Checking accuracy on validation set
+Got 27435 / 39868 correct (68.81)
+
+Epoch 4, Iteration 800, loss = 0.4671
+Checking accuracy on validation set
+Got 27315 / 39868 correct (68.51)
+
+Epoch 4, Iteration 900, loss = 0.5063
+Checking accuracy on validation set
+Got 27003 / 39868 correct (67.73)
+
+Epoch 4, Iteration 1000, loss = 0.5458
+Checking accuracy on validation set
+Got 27390 / 39868 correct (68.70)
+
+Epoch 4, Iteration 1100, loss = 0.4717
+Checking accuracy on validation set
+Got 27315 / 39868 correct (68.51)
+
+Epoch 4, Iteration 1200, loss = 0.5047
+Checking accuracy on validation set
+Got 27410 / 39868 correct (68.75)
+
+Epoch 4, Iteration 1300, loss = 0.5045
+Checking accuracy on validation set
+Got 27162 / 39868 correct (68.13)
+
+Epoch 4, Iteration 1400, loss = 0.4050
+Checking accuracy on validation set
+Got 27499 / 39868 correct (68.98)
+
+Epoch 4, Iteration 1500, loss = 0.5105
+Checking accuracy on validation set
+Got 27374 / 39868 correct (68.66)
+
+Epoch 4, Iteration 1600, loss = 0.5592
+Checking accuracy on validation set
+Got 27722 / 39868 correct (69.53)
+
+Epoch 4, Iteration 1700, loss = 0.3224
+Checking accuracy on validation set
+Got 27725 / 39868 correct (69.54)
+
+Epoch 4, Iteration 1800, loss = 0.5989
+Checking accuracy on validation set
+Got 27570 / 39868 correct (69.15)
+
+Epoch 4, Iteration 1900, loss = 0.5144
+Checking accuracy on validation set
+Got 27643 / 39868 correct (69.34)
+
+Epoch 4, Iteration 2000, loss = 0.4604
+Checking accuracy on validation set
+Got 27692 / 39868 correct (69.46)
+
+Epoch 4, Iteration 2100, loss = 0.4177
+Checking accuracy on validation set
+Got 27675 / 39868 correct (69.42)
+
+Epoch 4, Iteration 2200, loss = 0.5224
+Checking accuracy on validation set
+Got 27658 / 39868 correct (69.37)
+
+Epoch 5, Iteration 0, loss = 0.6099
+Checking accuracy on validation set
+Got 27647 / 39868 correct (69.35)
+
+Epoch 5, Iteration 100, loss = 0.4951
+Checking accuracy on validation set
+Got 27755 / 39868 correct (69.62)
+
+Epoch 5, Iteration 200, loss = 0.6208
+Checking accuracy on validation set
+Got 27625 / 39868 correct (69.29)
+
+Epoch 5, Iteration 300, loss = 0.4396
+Checking accuracy on validation set
+Got 27519 / 39868 correct (69.03)
+
+Epoch 5, Iteration 400, loss = 0.5081
+Checking accuracy on validation set
+Got 27588 / 39868 correct (69.20)
+
+Epoch 5, Iteration 500, loss = 0.6213
+Checking accuracy on validation set
+Got 27356 / 39868 correct (68.62)
+
+Epoch 5, Iteration 600, loss = 0.4922
+Checking accuracy on validation set
+Got 27318 / 39868 correct (68.52)
+
+Epoch 5, Iteration 700, loss = 0.5113
+Checking accuracy on validation set
+Got 27554 / 39868 correct (69.11)
+
+Epoch 5, Iteration 800, loss = 0.3584
+Checking accuracy on validation set
+Got 27393 / 39868 correct (68.71)
+
+Epoch 5, Iteration 900, loss = 0.6195
+Checking accuracy on validation set
+Got 26822 / 39868 correct (67.28)
+
+Epoch 5, Iteration 1000, loss = 0.4845
+Checking accuracy on validation set
+Got 27503 / 39868 correct (68.99)
+
+Epoch 5, Iteration 1100, loss = 0.3570
+Checking accuracy on validation set
+Got 27430 / 39868 correct (68.80)
+
+Epoch 5, Iteration 1200, loss = 0.6094
+Checking accuracy on validation set
+Got 27535 / 39868 correct (69.07)
+
+Epoch 5, Iteration 1300, loss = 0.5297
+Checking accuracy on validation set
+Got 27314 / 39868 correct (68.51)
+
+Epoch 5, Iteration 1400, loss = 0.4915
+Checking accuracy on validation set
+Got 27742 / 39868 correct (69.58)
+
+Epoch 5, Iteration 1500, loss = 0.4087
+Checking accuracy on validation set
+Got 27479 / 39868 correct (68.92)
+
+Epoch 5, Iteration 1600, loss = 0.3132
+Checking accuracy on validation set
+Got 26030 / 39868 correct (65.29)
+
+Epoch 5, Iteration 1700, loss = 0.4114
+Checking accuracy on validation set
+Got 27194 / 39868 correct (68.21)
+
+Epoch 5, Iteration 1800, loss = 0.4634
+Checking accuracy on validation set
+Got 26987 / 39868 correct (67.69)
+
+Epoch 5, Iteration 1900, loss = 0.4673
+Checking accuracy on validation set
+Got 26945 / 39868 correct (67.59)
+
+Epoch 5, Iteration 2000, loss = 0.4296
+Checking accuracy on validation set
+Got 27418 / 39868 correct (68.77)
+
+Epoch 5, Iteration 2100, loss = 0.4779
+Checking accuracy on validation set
+Got 27168 / 39868 correct (68.14)
+
+Epoch 5, Iteration 2200, loss = 0.3468
+Checking accuracy on validation set
+Got 26834 / 39868 correct (67.31)
+
+Epoch 6, Iteration 0, loss = 0.5454
+Checking accuracy on validation set
+Got 27571 / 39868 correct (69.16)
+
+Epoch 6, Iteration 100, loss = 0.5658
+Checking accuracy on validation set
+Got 26942 / 39868 correct (67.58)
+
+Epoch 6, Iteration 200, loss = 0.4339
+Checking accuracy on validation set
+Got 26992 / 39868 correct (67.70)
+
+Epoch 6, Iteration 300, loss = 0.5053
+Checking accuracy on validation set
+Got 27062 / 39868 correct (67.88)
+
+Epoch 6, Iteration 400, loss = 0.4232
+Checking accuracy on validation set
+Got 27468 / 39868 correct (68.90)
+
+Epoch 6, Iteration 500, loss = 0.5746
+Checking accuracy on validation set
+Got 27422 / 39868 correct (68.78)
+
+Epoch 6, Iteration 600, loss = 0.4194
+Checking accuracy on validation set
+Got 27424 / 39868 correct (68.79)
+
+Epoch 6, Iteration 700, loss = 0.4619
+Checking accuracy on validation set
+Got 27408 / 39868 correct (68.75)
+
+Epoch 6, Iteration 800, loss = 0.5922
+Checking accuracy on validation set
+Got 26888 / 39868 correct (67.44)
+
+Epoch 6, Iteration 900, loss = 0.5038
+Checking accuracy on validation set
+Got 27069 / 39868 correct (67.90)
+
+Epoch 6, Iteration 1000, loss = 0.4316
+Checking accuracy on validation set
+Got 27618 / 39868 correct (69.27)
+
+Epoch 6, Iteration 1100, loss = 0.5164
+Checking accuracy on validation set
+Got 27614 / 39868 correct (69.26)
+
+Epoch 6, Iteration 1200, loss = 0.4575
+Checking accuracy on validation set
+Got 27296 / 39868 correct (68.47)
+
+Epoch 6, Iteration 1300, loss = 0.5918
+Checking accuracy on validation set
+Got 27264 / 39868 correct (68.39)
+
+Epoch 6, Iteration 1400, loss = 0.4772
+Checking accuracy on validation set
+Got 27599 / 39868 correct (69.23)
+
+Epoch 6, Iteration 1500, loss = 0.4822
+Checking accuracy on validation set
+Got 27444 / 39868 correct (68.84)
+
+Epoch 6, Iteration 1600, loss = 0.4791
+Checking accuracy on validation set
+Got 27893 / 39868 correct (69.96)
+
+Epoch 6, Iteration 1700, loss = 0.4933
+Checking accuracy on validation set
+Got 27721 / 39868 correct (69.53)
+
+Epoch 6, Iteration 1800, loss = 0.5929
+Checking accuracy on validation set
+Got 27768 / 39868 correct (69.65)
+
+Epoch 6, Iteration 1900, loss = 0.4584
+Checking accuracy on validation set
+Got 26943 / 39868 correct (67.58)
+
+Epoch 6, Iteration 2000, loss = 0.4673
+Checking accuracy on validation set
+Got 27875 / 39868 correct (69.92)
+
+Epoch 6, Iteration 2100, loss = 0.3191
+Checking accuracy on validation set
+Got 27612 / 39868 correct (69.26)
+
+Epoch 6, Iteration 2200, loss = 0.5303
+Checking accuracy on validation set
+Got 27516 / 39868 correct (69.02)
+
+Epoch 7, Iteration 0, loss = 0.6178
+Checking accuracy on validation set
+Got 27784 / 39868 correct (69.69)
+
+Epoch 7, Iteration 100, loss = 0.5280
+Checking accuracy on validation set
+Got 27343 / 39868 correct (68.58)
+
+Epoch 7, Iteration 200, loss = 0.3615
+Checking accuracy on validation set
+Got 27456 / 39868 correct (68.87)
+
+Epoch 7, Iteration 300, loss = 0.6080
+Checking accuracy on validation set
+Got 27614 / 39868 correct (69.26)
+
+Epoch 7, Iteration 400, loss = 0.4556
+Checking accuracy on validation set
+Got 27472 / 39868 correct (68.91)
+
+Epoch 7, Iteration 500, loss = 0.4813
+Checking accuracy on validation set
+Got 27790 / 39868 correct (69.71)
+
+Epoch 7, Iteration 600, loss = 0.5032
+Checking accuracy on validation set
+Got 27758 / 39868 correct (69.62)
+
+Epoch 7, Iteration 700, loss = 0.4625
+Checking accuracy on validation set
+Got 27866 / 39868 correct (69.90)
+
+Epoch 7, Iteration 800, loss = 0.4845
+Checking accuracy on validation set
+Got 27383 / 39868 correct (68.68)
+
+Epoch 7, Iteration 900, loss = 0.6119
+Checking accuracy on validation set
+Got 27617 / 39868 correct (69.27)
+
+Epoch 7, Iteration 1000, loss = 0.5661
+Checking accuracy on validation set
+Got 26674 / 39868 correct (66.91)
+
+Epoch 7, Iteration 1100, loss = 0.5356
+Checking accuracy on validation set
+Got 27780 / 39868 correct (69.68)
+
+Epoch 7, Iteration 1200, loss = 0.4675
+Checking accuracy on validation set
+Got 26946 / 39868 correct (67.59)
+
+Epoch 7, Iteration 1300, loss = 0.4937
+Checking accuracy on validation set
+Got 27964 / 39868 correct (70.14)
+
+Epoch 7, Iteration 1400, loss = 0.4478
+Checking accuracy on validation set
+Got 27879 / 39868 correct (69.93)
+
+Epoch 7, Iteration 1500, loss = 0.6068
+Checking accuracy on validation set
+Got 27855 / 39868 correct (69.87)
+
+Epoch 7, Iteration 1600, loss = 0.5041
+Checking accuracy on validation set
+Got 27753 / 39868 correct (69.61)
+
+Epoch 7, Iteration 1700, loss = 0.4280
+Checking accuracy on validation set
+Got 27926 / 39868 correct (70.05)
+
+Epoch 7, Iteration 1800, loss = 0.5036
+Checking accuracy on validation set
+Got 27499 / 39868 correct (68.98)
+
+Epoch 7, Iteration 1900, loss = 0.4030
+Checking accuracy on validation set
+Got 27523 / 39868 correct (69.04)
+
+Epoch 7, Iteration 2000, loss = 0.4506
+Checking accuracy on validation set
+Got 26708 / 39868 correct (66.99)
+
+Epoch 7, Iteration 2100, loss = 0.3860
+Checking accuracy on validation set
+Got 27615 / 39868 correct (69.27)
+
+Epoch 7, Iteration 2200, loss = 0.4657
+Checking accuracy on validation set
+Got 27926 / 39868 correct (70.05)
+
+Epoch 8, Iteration 0, loss = 0.4695
+Checking accuracy on validation set
+Got 27819 / 39868 correct (69.78)
+
+Epoch 8, Iteration 100, loss = 0.4315
+Checking accuracy on validation set
+Got 27643 / 39868 correct (69.34)
+
+Epoch 8, Iteration 200, loss = 0.5077
+Checking accuracy on validation set
+Got 26936 / 39868 correct (67.56)
+
+Epoch 8, Iteration 300, loss = 0.4630
+Checking accuracy on validation set
+Got 27843 / 39868 correct (69.84)
+
+Epoch 8, Iteration 400, loss = 0.5455
+Checking accuracy on validation set
+Got 27741 / 39868 correct (69.58)
+
+Epoch 8, Iteration 500, loss = 0.5903
+Checking accuracy on validation set
+Got 27777 / 39868 correct (69.67)
+
+Epoch 8, Iteration 600, loss = 0.5212
+Checking accuracy on validation set
+Got 27803 / 39868 correct (69.74)
+
+Epoch 8, Iteration 700, loss = 0.6385
+Checking accuracy on validation set
+Got 27393 / 39868 correct (68.71)
+
+Epoch 8, Iteration 800, loss = 0.5238
+Checking accuracy on validation set
+Got 27664 / 39868 correct (69.39)
+
+Epoch 8, Iteration 900, loss = 0.5129
+Checking accuracy on validation set
+Got 27877 / 39868 correct (69.92)
+
+Epoch 8, Iteration 1000, loss = 0.6512
+Checking accuracy on validation set
+Got 27720 / 39868 correct (69.53)
+
+Epoch 8, Iteration 1100, loss = 0.5333
+Checking accuracy on validation set
+Got 27832 / 39868 correct (69.81)
+
+Epoch 8, Iteration 1200, loss = 0.4701
+Checking accuracy on validation set
+Got 28068 / 39868 correct (70.40)
+
+Epoch 8, Iteration 1300, loss = 0.5233
+Checking accuracy on validation set
+Got 27501 / 39868 correct (68.98)
+
+Epoch 8, Iteration 1400, loss = 0.4550
+Checking accuracy on validation set
+Got 27438 / 39868 correct (68.82)
+
+Epoch 8, Iteration 1500, loss = 0.4806
+Checking accuracy on validation set
+Got 27558 / 39868 correct (69.12)
+
+Epoch 8, Iteration 1600, loss = 0.4569
+Checking accuracy on validation set
+Got 27831 / 39868 correct (69.81)
+
+Epoch 8, Iteration 1700, loss = 0.3562
+Checking accuracy on validation set
+Got 27868 / 39868 correct (69.90)
+
+Epoch 8, Iteration 1800, loss = 0.7150
+Checking accuracy on validation set
+Got 27399 / 39868 correct (68.72)
+
+Epoch 8, Iteration 1900, loss = 0.6915
+Checking accuracy on validation set
+Got 27116 / 39868 correct (68.01)
+
+Epoch 8, Iteration 2000, loss = 0.5239
+Checking accuracy on validation set
+Got 27883 / 39868 correct (69.94)
+
+Epoch 8, Iteration 2100, loss = 0.5031
+Checking accuracy on validation set
+Got 27907 / 39868 correct (70.00)
+
+Epoch 8, Iteration 2200, loss = 0.5036
+Checking accuracy on validation set
+Got 27544 / 39868 correct (69.09)
+
+Epoch 9, Iteration 0, loss = 0.5819
+Checking accuracy on validation set
+Got 27827 / 39868 correct (69.80)
+
+Epoch 9, Iteration 100, loss = 0.4870
+Checking accuracy on validation set
+Got 27550 / 39868 correct (69.10)
+
+Epoch 9, Iteration 200, loss = 0.4834
+Checking accuracy on validation set
+Got 27674 / 39868 correct (69.41)
+
+Epoch 9, Iteration 300, loss = 0.4134
+Checking accuracy on validation set
+Got 28160 / 39868 correct (70.63)
+
+Epoch 9, Iteration 400, loss = 0.3043
+Checking accuracy on validation set
+Got 27504 / 39868 correct (68.99)
+
+Epoch 9, Iteration 500, loss = 0.5784
+Checking accuracy on validation set
+Got 27113 / 39868 correct (68.01)
+
+Epoch 9, Iteration 600, loss = 0.5936
+Checking accuracy on validation set
+Got 27903 / 39868 correct (69.99)
+
+Epoch 9, Iteration 700, loss = 0.3321
+Checking accuracy on validation set
+Got 28099 / 39868 correct (70.48)
+
+Epoch 9, Iteration 800, loss = 0.3996
+Checking accuracy on validation set
+Got 28254 / 39868 correct (70.87)
+
+Epoch 9, Iteration 900, loss = 0.4825
+Checking accuracy on validation set
+Got 27925 / 39868 correct (70.04)
+
+Epoch 9, Iteration 1000, loss = 0.5476
+Checking accuracy on validation set
+Got 28025 / 39868 correct (70.29)
+
+Epoch 9, Iteration 1100, loss = 0.4951
+Checking accuracy on validation set
+Got 27899 / 39868 correct (69.98)
+
+Epoch 9, Iteration 1200, loss = 0.5983
+Checking accuracy on validation set
+Got 27744 / 39868 correct (69.59)
+
+Epoch 9, Iteration 1300, loss = 0.4704
+Checking accuracy on validation set
+Got 28144 / 39868 correct (70.59)
+
+Epoch 9, Iteration 1400, loss = 0.4772
+Checking accuracy on validation set
+Got 26943 / 39868 correct (67.58)
+
+Epoch 9, Iteration 1500, loss = 0.2993
+Checking accuracy on validation set
+Got 27851 / 39868 correct (69.86)
+
+Epoch 9, Iteration 1600, loss = 0.4637
+Checking accuracy on validation set
+Got 27876 / 39868 correct (69.92)
+
+Epoch 9, Iteration 1700, loss = 0.5583
+Checking accuracy on validation set
+Got 28130 / 39868 correct (70.56)
+
+Epoch 9, Iteration 1800, loss = 0.4747
+Checking accuracy on validation set
+Got 27667 / 39868 correct (69.40)
+
+Epoch 9, Iteration 1900, loss = 0.4623
+Checking accuracy on validation set
+Got 28083 / 39868 correct (70.44)
+
+Epoch 9, Iteration 2000, loss = 0.5265
+Checking accuracy on validation set
+Got 28121 / 39868 correct (70.54)
+
+Epoch 9, Iteration 2100, loss = 0.3654
+Checking accuracy on validation set
+Got 27968 / 39868 correct (70.15)
+
+Epoch 9, Iteration 2200, loss = 0.5236
+Checking accuracy on validation set
+Got 28152 / 39868 correct (70.61)
+
+Epoch 10, Iteration 0, loss = 0.4038
+Checking accuracy on validation set
+Got 28135 / 39868 correct (70.57)
+
+Epoch 10, Iteration 100, loss = 0.4668
+Checking accuracy on validation set
+Got 28012 / 39868 correct (70.26)
+
+Epoch 10, Iteration 200, loss = 0.7401
+Checking accuracy on validation set
+Got 27515 / 39868 correct (69.02)
+
+Epoch 10, Iteration 300, loss = 0.5745
+Checking accuracy on validation set
+Got 28019 / 39868 correct (70.28)
+
+Epoch 10, Iteration 400, loss = 0.4717
+Checking accuracy on validation set
+Got 27998 / 39868 correct (70.23)
+
+Epoch 10, Iteration 500, loss = 0.4987
+Checking accuracy on validation set
+Got 28018 / 39868 correct (70.28)
+
+Epoch 10, Iteration 600, loss = 0.4756
+Checking accuracy on validation set
+Got 27773 / 39868 correct (69.66)
+
+Epoch 10, Iteration 700, loss = 0.2944
+Checking accuracy on validation set
+Got 27718 / 39868 correct (69.52)
+
+Epoch 10, Iteration 800, loss = 0.4034
+Checking accuracy on validation set
+Got 28055 / 39868 correct (70.37)
+
+Epoch 10, Iteration 900, loss = 0.3155
+Checking accuracy on validation set
+Got 28330 / 39868 correct (71.06)
+
+Epoch 10, Iteration 1000, loss = 0.3346
+Checking accuracy on validation set
+Got 27817 / 39868 correct (69.77)
+
+Epoch 10, Iteration 1100, loss = 0.4002
+Checking accuracy on validation set
+Got 27503 / 39868 correct (68.99)
+
+Epoch 10, Iteration 1200, loss = 0.4143
+Checking accuracy on validation set
+Got 27819 / 39868 correct (69.78)
+
+Epoch 10, Iteration 1300, loss = 0.4648
+Checking accuracy on validation set
+Got 27816 / 39868 correct (69.77)
+
+Epoch 10, Iteration 1400, loss = 0.6205
+Checking accuracy on validation set
+Got 27802 / 39868 correct (69.74)
+
+Epoch 10, Iteration 1500, loss = 0.6957
+Checking accuracy on validation set
+Got 27326 / 39868 correct (68.54)
+
+Epoch 10, Iteration 1600, loss = 0.6363
+Checking accuracy on validation set
+Got 27493 / 39868 correct (68.96)
+
+Epoch 10, Iteration 1700, loss = 0.4572
+Checking accuracy on validation set
+Got 27411 / 39868 correct (68.75)
+
+Epoch 10, Iteration 1800, loss = 0.6845
+Checking accuracy on validation set
+Got 28107 / 39868 correct (70.50)
+
+Epoch 10, Iteration 1900, loss = 0.5170
+Checking accuracy on validation set
+Got 27762 / 39868 correct (69.63)
+
+Epoch 10, Iteration 2000, loss = 0.4426
+Checking accuracy on validation set
+Got 28161 / 39868 correct (70.64)
+
+Epoch 10, Iteration 2100, loss = 0.4413
+Checking accuracy on validation set
+Got 27834 / 39868 correct (69.82)
+
+Epoch 10, Iteration 2200, loss = 0.6671
+Checking accuracy on validation set
+Got 27708 / 39868 correct (69.50)
+
+Epoch 11, Iteration 0, loss = 0.4387
+Checking accuracy on validation set
+Got 27884 / 39868 correct (69.94)
+
+Epoch 11, Iteration 100, loss = 0.4608
+Checking accuracy on validation set
+Got 28255 / 39868 correct (70.87)
+
+Epoch 11, Iteration 200, loss = 0.3097
+Checking accuracy on validation set
+Got 27826 / 39868 correct (69.80)
+
+Epoch 11, Iteration 300, loss = 0.4352
+Checking accuracy on validation set
+Got 28432 / 39868 correct (71.32)
+
+Epoch 11, Iteration 400, loss = 0.4378
+Checking accuracy on validation set
+Got 28063 / 39868 correct (70.39)
+
+Epoch 11, Iteration 500, loss = 0.3791
+Checking accuracy on validation set
+Got 28391 / 39868 correct (71.21)
+
+Epoch 11, Iteration 600, loss = 0.4408
+Checking accuracy on validation set
+Got 28053 / 39868 correct (70.36)
+
+Epoch 11, Iteration 700, loss = 0.4282
+Checking accuracy on validation set
+Got 27649 / 39868 correct (69.35)
+
+Epoch 11, Iteration 800, loss = 0.4920
+Checking accuracy on validation set
+Got 28093 / 39868 correct (70.47)
+
+Epoch 11, Iteration 900, loss = 0.5957
+Checking accuracy on validation set
+Got 28173 / 39868 correct (70.67)
+
+Epoch 11, Iteration 1000, loss = 0.4595
+Checking accuracy on validation set
+Got 27547 / 39868 correct (69.10)
+
+Epoch 11, Iteration 1100, loss = 0.3729
+Checking accuracy on validation set
+Got 27931 / 39868 correct (70.06)
+
+Epoch 11, Iteration 1200, loss = 0.4013
+Checking accuracy on validation set
+Got 28216 / 39868 correct (70.77)
+
+Epoch 11, Iteration 1300, loss = 0.4889
+Checking accuracy on validation set
+Got 28199 / 39868 correct (70.73)
+
+Epoch 11, Iteration 1400, loss = 0.4018
+Checking accuracy on validation set
+Got 28215 / 39868 correct (70.77)
+
+Epoch 11, Iteration 1500, loss = 0.5974
+Checking accuracy on validation set
+Got 28441 / 39868 correct (71.34)
+
+Epoch 11, Iteration 1600, loss = 0.6284
+Checking accuracy on validation set
+Got 27973 / 39868 correct (70.16)
+
+Epoch 11, Iteration 1700, loss = 0.4187
+Checking accuracy on validation set
+Got 28236 / 39868 correct (70.82)
+
+Epoch 11, Iteration 1800, loss = 0.4836
+Checking accuracy on validation set
+Got 28249 / 39868 correct (70.86)
+
+Epoch 11, Iteration 1900, loss = 0.5151
+Checking accuracy on validation set
+Got 28552 / 39868 correct (71.62)
+
+Epoch 11, Iteration 2000, loss = 0.5323
+Checking accuracy on validation set
+Got 27823 / 39868 correct (69.79)
+
+Epoch 11, Iteration 2100, loss = 0.5031
+Checking accuracy on validation set
+Got 28424 / 39868 correct (71.30)
+
+Epoch 11, Iteration 2200, loss = 0.3918
+Checking accuracy on validation set
+Got 28141 / 39868 correct (70.59)
+
+Epoch 12, Iteration 0, loss = 0.3451
+Checking accuracy on validation set
+Got 28302 / 39868 correct (70.99)
+
+Epoch 12, Iteration 100, loss = 0.5502
+Checking accuracy on validation set
+Got 28024 / 39868 correct (70.29)
+
+Epoch 12, Iteration 200, loss = 0.6704
+Checking accuracy on validation set
+Got 28470 / 39868 correct (71.41)
+
+Epoch 12, Iteration 300, loss = 0.4732
+Checking accuracy on validation set
+Got 28137 / 39868 correct (70.58)
+
+Epoch 12, Iteration 400, loss = 0.4186
+Checking accuracy on validation set
+Got 28239 / 39868 correct (70.83)
+
+Epoch 12, Iteration 500, loss = 0.4196
+Checking accuracy on validation set
+Got 28066 / 39868 correct (70.40)
+
+Epoch 12, Iteration 600, loss = 0.4525
+Checking accuracy on validation set
+Got 28009 / 39868 correct (70.25)
+
+Epoch 12, Iteration 700, loss = 0.3727
+Checking accuracy on validation set
+Got 28203 / 39868 correct (70.74)
+
+Epoch 12, Iteration 800, loss = 0.4563
+Checking accuracy on validation set
+Got 28329 / 39868 correct (71.06)
+
+Epoch 12, Iteration 900, loss = 0.4692
+Checking accuracy on validation set
+Got 28270 / 39868 correct (70.91)
+
+Epoch 12, Iteration 1000, loss = 0.4689
+Checking accuracy on validation set
+Got 28480 / 39868 correct (71.44)
+
+Epoch 12, Iteration 1100, loss = 0.3666
+Checking accuracy on validation set
+Got 28367 / 39868 correct (71.15)
+
+Epoch 12, Iteration 1200, loss = 0.5786
+Checking accuracy on validation set
+Got 28298 / 39868 correct (70.98)
+
+Epoch 12, Iteration 1300, loss = 0.4544
+Checking accuracy on validation set
+Got 28451 / 39868 correct (71.36)
+
+Epoch 12, Iteration 1400, loss = 0.3820
+Checking accuracy on validation set
+Got 28439 / 39868 correct (71.33)
+
+Epoch 12, Iteration 1500, loss = 0.6467
+Checking accuracy on validation set
+Got 28597 / 39868 correct (71.73)
+
+Epoch 12, Iteration 1600, loss = 0.5318
+Checking accuracy on validation set
+Got 28249 / 39868 correct (70.86)
+
+Epoch 12, Iteration 1700, loss = 0.4147
+Checking accuracy on validation set
+Got 27671 / 39868 correct (69.41)
+
+Epoch 12, Iteration 1800, loss = 0.4302
+Checking accuracy on validation set
+Got 28203 / 39868 correct (70.74)
+
+Epoch 12, Iteration 1900, loss = 0.4694
+Checking accuracy on validation set
+Got 28297 / 39868 correct (70.98)
+
+Epoch 12, Iteration 2000, loss = 0.4419
+Checking accuracy on validation set
+Got 28187 / 39868 correct (70.70)
+
+Epoch 12, Iteration 2100, loss = 0.5480
+Checking accuracy on validation set
+Got 28638 / 39868 correct (71.83)
+
+Epoch 12, Iteration 2200, loss = 0.4884
+Checking accuracy on validation set
+Got 28490 / 39868 correct (71.46)
+
+Epoch 13, Iteration 0, loss = 0.4907
+Checking accuracy on validation set
+Got 27474 / 39868 correct (68.91)
+
+Epoch 13, Iteration 100, loss = 0.4733
+Checking accuracy on validation set
+Got 28287 / 39868 correct (70.95)
+
+Epoch 13, Iteration 200, loss = 0.4817
+Checking accuracy on validation set
+Got 28452 / 39868 correct (71.37)
+
+Epoch 13, Iteration 300, loss = 0.4770
+Checking accuracy on validation set
+Got 28356 / 39868 correct (71.12)
+
+Epoch 13, Iteration 400, loss = 0.3665
+Checking accuracy on validation set
+Got 28065 / 39868 correct (70.39)
+
+Epoch 13, Iteration 500, loss = 0.5137
+Checking accuracy on validation set
+Got 28135 / 39868 correct (70.57)
+
+Epoch 13, Iteration 600, loss = 0.4927
+Checking accuracy on validation set
+Got 28343 / 39868 correct (71.09)
+
+Epoch 13, Iteration 700, loss = 0.3460
+Checking accuracy on validation set
+Got 27950 / 39868 correct (70.11)
+
+Epoch 13, Iteration 800, loss = 0.4251
+Checking accuracy on validation set
+Got 28235 / 39868 correct (70.82)
+
+Epoch 13, Iteration 900, loss = 0.5676
+Checking accuracy on validation set
+Got 28405 / 39868 correct (71.25)
+
+Epoch 13, Iteration 1000, loss = 0.4496
+Checking accuracy on validation set
+Got 28503 / 39868 correct (71.49)
+
+Epoch 13, Iteration 1100, loss = 0.5114
+Checking accuracy on validation set
+Got 28427 / 39868 correct (71.30)
+
+Epoch 13, Iteration 1200, loss = 0.4243
+Checking accuracy on validation set
+Got 28290 / 39868 correct (70.96)
+
+Epoch 13, Iteration 1300, loss = 0.4175
+Checking accuracy on validation set
+Got 27858 / 39868 correct (69.88)
+
+Epoch 13, Iteration 1400, loss = 0.4068
+Checking accuracy on validation set
+Got 28486 / 39868 correct (71.45)
+
+Epoch 13, Iteration 1500, loss = 0.2930
+Checking accuracy on validation set
+Got 28553 / 39868 correct (71.62)
+
+Epoch 13, Iteration 1600, loss = 0.5381
+Checking accuracy on validation set
+Got 28534 / 39868 correct (71.57)
+
+Epoch 13, Iteration 1700, loss = 0.2911
+Checking accuracy on validation set
+Got 27864 / 39868 correct (69.89)
+
+Epoch 13, Iteration 1800, loss = 0.4966
+Checking accuracy on validation set
+Got 28223 / 39868 correct (70.79)
+
+Epoch 13, Iteration 1900, loss = 0.2715
+Checking accuracy on validation set
+Got 28355 / 39868 correct (71.12)
+
+Epoch 13, Iteration 2000, loss = 0.5506
+Checking accuracy on validation set
+Got 28231 / 39868 correct (70.81)
+
+Epoch 13, Iteration 2100, loss = 0.6683
+Checking accuracy on validation set
+Got 28542 / 39868 correct (71.59)
+
+Epoch 13, Iteration 2200, loss = 0.4253
+Checking accuracy on validation set
+Got 28285 / 39868 correct (70.95)
+
+Epoch 14, Iteration 0, loss = 0.4624
+Checking accuracy on validation set
+Got 28511 / 39868 correct (71.51)
+
+Epoch 14, Iteration 100, loss = 0.4508
+Checking accuracy on validation set
+Got 28425 / 39868 correct (71.30)
+
+Epoch 14, Iteration 200, loss = 0.5093
+Checking accuracy on validation set
+Got 28194 / 39868 correct (70.72)
+
+Epoch 14, Iteration 300, loss = 0.4004
+Checking accuracy on validation set
+Got 28273 / 39868 correct (70.92)
+
+Epoch 14, Iteration 400, loss = 0.4723
+Checking accuracy on validation set
+Got 28340 / 39868 correct (71.08)
+
+Epoch 14, Iteration 500, loss = 0.5730
+Checking accuracy on validation set
+Got 28510 / 39868 correct (71.51)
+
+Epoch 14, Iteration 600, loss = 0.6795
+Checking accuracy on validation set
+Got 28637 / 39868 correct (71.83)
+
+Epoch 14, Iteration 700, loss = 0.4501
+Checking accuracy on validation set
+Got 28511 / 39868 correct (71.51)
+
+Epoch 14, Iteration 800, loss = 0.4990
+Checking accuracy on validation set
+Got 28580 / 39868 correct (71.69)
+
+Epoch 14, Iteration 900, loss = 0.5403
+Checking accuracy on validation set
+Got 28203 / 39868 correct (70.74)
+
+Epoch 14, Iteration 1000, loss = 0.4286
+Checking accuracy on validation set
+Got 28544 / 39868 correct (71.60)
+
+Epoch 14, Iteration 1100, loss = 0.4663
+Checking accuracy on validation set
+Got 28696 / 39868 correct (71.98)
+
+Epoch 14, Iteration 1200, loss = 0.5618
+Checking accuracy on validation set
+Got 28510 / 39868 correct (71.51)
+
+Epoch 14, Iteration 1300, loss = 0.3720
+Checking accuracy on validation set
+Got 28239 / 39868 correct (70.83)
+
+Epoch 14, Iteration 1400, loss = 0.4680
+Checking accuracy on validation set
+Got 28378 / 39868 correct (71.18)
+
+Epoch 14, Iteration 1500, loss = 0.5415
+Checking accuracy on validation set
+Got 27961 / 39868 correct (70.13)
+
+Epoch 14, Iteration 1600, loss = 0.5050
+Checking accuracy on validation set
+Got 28345 / 39868 correct (71.10)
+
+Epoch 14, Iteration 1700, loss = 0.5153
+Checking accuracy on validation set
+Got 28762 / 39868 correct (72.14)
+
+Epoch 14, Iteration 1800, loss = 0.4020
+Checking accuracy on validation set
+Got 28722 / 39868 correct (72.04)
+
+Epoch 14, Iteration 1900, loss = 0.5560
+Checking accuracy on validation set
+Got 28475 / 39868 correct (71.42)
+
+Epoch 14, Iteration 2000, loss = 0.5368
+Checking accuracy on validation set
+Got 28425 / 39868 correct (71.30)
+
+Epoch 14, Iteration 2100, loss = 0.4502
+Checking accuracy on validation set
+Got 28532 / 39868 correct (71.57)
+
+Epoch 14, Iteration 2200, loss = 0.4811
+Checking accuracy on validation set
+Got 28264 / 39868 correct (70.89)
+
+Epoch 15, Iteration 0, loss = 0.4464
+Checking accuracy on validation set
+Got 28408 / 39868 correct (71.26)
+
+Epoch 15, Iteration 100, loss = 0.4587
+Checking accuracy on validation set
+Got 28256 / 39868 correct (70.87)
+
+Epoch 15, Iteration 200, loss = 0.4633
+Checking accuracy on validation set
+Got 28440 / 39868 correct (71.34)
+
+Epoch 15, Iteration 300, loss = 0.4861
+Checking accuracy on validation set
+Got 27529 / 39868 correct (69.05)
+
+Epoch 15, Iteration 400, loss = 0.5367
+Checking accuracy on validation set
+Got 28514 / 39868 correct (71.52)
+
+Epoch 15, Iteration 500, loss = 0.4090
+Checking accuracy on validation set
+Got 28446 / 39868 correct (71.35)
+
+Epoch 15, Iteration 600, loss = 0.2877
+Checking accuracy on validation set
+Got 28605 / 39868 correct (71.75)
+
+Epoch 15, Iteration 700, loss = 0.5332
+Checking accuracy on validation set
+Got 27898 / 39868 correct (69.98)
+
+Epoch 15, Iteration 800, loss = 0.3152
+Checking accuracy on validation set
+Got 28511 / 39868 correct (71.51)
+
+Epoch 15, Iteration 900, loss = 0.3818
+Checking accuracy on validation set
+Got 28035 / 39868 correct (70.32)
+
+Epoch 15, Iteration 1000, loss = 0.6129
+Checking accuracy on validation set
+Got 28709 / 39868 correct (72.01)
+
+Epoch 15, Iteration 1100, loss = 0.3415
+Checking accuracy on validation set
+Got 28097 / 39868 correct (70.48)
+
+Epoch 15, Iteration 1200, loss = 0.3618
+Checking accuracy on validation set
+Got 28230 / 39868 correct (70.81)
+
+Epoch 15, Iteration 1300, loss = 0.4747
+Checking accuracy on validation set
+Got 29019 / 39868 correct (72.79)
+
+Epoch 15, Iteration 1400, loss = 0.3827
+Checking accuracy on validation set
+Got 28793 / 39868 correct (72.22)
+
+Epoch 15, Iteration 1500, loss = 0.4260
+Checking accuracy on validation set
+Got 28637 / 39868 correct (71.83)
+
+Epoch 15, Iteration 1600, loss = 0.2868
+Checking accuracy on validation set
+Got 28654 / 39868 correct (71.87)
+
+Epoch 15, Iteration 1700, loss = 0.3844
+Checking accuracy on validation set
+Got 28706 / 39868 correct (72.00)
+
+Epoch 15, Iteration 1800, loss = 0.3782
+Checking accuracy on validation set
+Got 28512 / 39868 correct (71.52)
+
+Epoch 15, Iteration 1900, loss = 0.3253
+Checking accuracy on validation set
+Got 28263 / 39868 correct (70.89)
+
+Epoch 15, Iteration 2000, loss = 0.6538
+Checking accuracy on validation set
+Got 28722 / 39868 correct (72.04)
+
+Epoch 15, Iteration 2100, loss = 0.3378
+Checking accuracy on validation set
+Got 28779 / 39868 correct (72.19)
+
+Epoch 15, Iteration 2200, loss = 0.6162
+Checking accuracy on validation set
+Got 28520 / 39868 correct (71.54)
+
+Epoch 16, Iteration 0, loss = 0.5009
+Checking accuracy on validation set
+Got 28501 / 39868 correct (71.49)
+
+Epoch 16, Iteration 100, loss = 0.4745
+Checking accuracy on validation set
+Got 28106 / 39868 correct (70.50)
+
+Epoch 16, Iteration 200, loss = 0.3502
+Checking accuracy on validation set
+Got 28575 / 39868 correct (71.67)
+
+Epoch 16, Iteration 300, loss = 0.3503
+Checking accuracy on validation set
+Got 28764 / 39868 correct (72.15)
+
+Epoch 16, Iteration 400, loss = 0.4232
+Checking accuracy on validation set
+Got 27777 / 39868 correct (69.67)
+
+Epoch 16, Iteration 500, loss = 0.6159
+Checking accuracy on validation set
+Got 28375 / 39868 correct (71.17)
+
+Epoch 16, Iteration 600, loss = 0.3348
+Checking accuracy on validation set
+Got 28429 / 39868 correct (71.31)
+
+Epoch 16, Iteration 700, loss = 1.6738
+Checking accuracy on validation set
+Got 28744 / 39868 correct (72.10)
+
+Epoch 16, Iteration 800, loss = 0.4985
+Checking accuracy on validation set
+Got 28837 / 39868 correct (72.33)
+
+Epoch 16, Iteration 900, loss = 0.4366
+Checking accuracy on validation set
+Got 28312 / 39868 correct (71.01)
+
+Epoch 16, Iteration 1000, loss = 0.3030
+Checking accuracy on validation set
+Got 28376 / 39868 correct (71.17)
+
+Epoch 16, Iteration 1100, loss = 0.4627
+Checking accuracy on validation set
+Got 28193 / 39868 correct (70.72)
+
+Epoch 16, Iteration 1200, loss = 0.5539
+Checking accuracy on validation set
+Got 28502 / 39868 correct (71.49)
+
+Epoch 16, Iteration 1300, loss = 0.3660
+Checking accuracy on validation set
+Got 28799 / 39868 correct (72.24)
+
+Epoch 16, Iteration 1400, loss = 0.4720
+Checking accuracy on validation set
+Got 28190 / 39868 correct (70.71)
+
+Epoch 16, Iteration 1500, loss = 0.4440
+Checking accuracy on validation set
+Got 28527 / 39868 correct (71.55)
+
+Epoch 16, Iteration 1600, loss = 0.5235
+Checking accuracy on validation set
+Got 28437 / 39868 correct (71.33)
+
+Epoch 16, Iteration 1700, loss = 0.4415
+Checking accuracy on validation set
+Got 28467 / 39868 correct (71.40)
+
+Epoch 16, Iteration 1800, loss = 0.3641
+Checking accuracy on validation set
+Got 28761 / 39868 correct (72.14)
+
+Epoch 16, Iteration 1900, loss = 0.6217
+Checking accuracy on validation set
+Got 28606 / 39868 correct (71.75)
+
+Epoch 16, Iteration 2000, loss = 0.3645
+Checking accuracy on validation set
+Got 28560 / 39868 correct (71.64)
+
+Epoch 16, Iteration 2100, loss = 0.3414
+Checking accuracy on validation set
+Got 28797 / 39868 correct (72.23)
+
+Epoch 16, Iteration 2200, loss = 0.7311
+Checking accuracy on validation set
+Got 28786 / 39868 correct (72.20)
+
+Epoch 17, Iteration 0, loss = 0.5463
+Checking accuracy on validation set
+Got 28393 / 39868 correct (71.22)
+
+Epoch 17, Iteration 100, loss = 0.3410
+Checking accuracy on validation set
+Got 28688 / 39868 correct (71.96)
+
+Epoch 17, Iteration 200, loss = 0.3801
+Checking accuracy on validation set
+Got 28580 / 39868 correct (71.69)
+
+Epoch 17, Iteration 300, loss = 0.4928
+Checking accuracy on validation set
+Got 28097 / 39868 correct (70.48)
+
+Epoch 17, Iteration 400, loss = 0.6213
+Checking accuracy on validation set
+Got 28080 / 39868 correct (70.43)
+
+Epoch 17, Iteration 500, loss = 0.3875
+Checking accuracy on validation set
+Got 28783 / 39868 correct (72.20)
+
+Epoch 17, Iteration 600, loss = 0.5750
+Checking accuracy on validation set
+Got 28723 / 39868 correct (72.05)
+
+Epoch 17, Iteration 700, loss = 0.3826
+Checking accuracy on validation set
+Got 28838 / 39868 correct (72.33)
+
+Epoch 17, Iteration 800, loss = 0.5307
+Checking accuracy on validation set
+Got 28687 / 39868 correct (71.95)
+
+Epoch 17, Iteration 900, loss = 0.3014
+Checking accuracy on validation set
+Got 28552 / 39868 correct (71.62)
+
+Epoch 17, Iteration 1000, loss = 0.5028
+Checking accuracy on validation set
+Got 28215 / 39868 correct (70.77)
+
+Epoch 17, Iteration 1100, loss = 0.4368
+Checking accuracy on validation set
+Got 28424 / 39868 correct (71.30)
+
+Epoch 17, Iteration 1200, loss = 0.5574
+Checking accuracy on validation set
+Got 28714 / 39868 correct (72.02)
+
+Epoch 17, Iteration 1300, loss = 0.4658
+Checking accuracy on validation set
+Got 28934 / 39868 correct (72.57)
+
+Epoch 17, Iteration 1400, loss = 0.6459
+Checking accuracy on validation set
+Got 29010 / 39868 correct (72.77)
+
+Epoch 17, Iteration 1500, loss = 0.4633
+Checking accuracy on validation set
+Got 28723 / 39868 correct (72.05)
+
+Epoch 17, Iteration 1600, loss = 0.3783
+Checking accuracy on validation set
+Got 28717 / 39868 correct (72.03)
+
+Epoch 17, Iteration 1700, loss = 0.5040
+Checking accuracy on validation set
+Got 28337 / 39868 correct (71.08)
+
+Epoch 17, Iteration 1800, loss = 0.3245
+Checking accuracy on validation set
+Got 28202 / 39868 correct (70.74)
+
+Epoch 17, Iteration 1900, loss = 0.4063
+Checking accuracy on validation set
+Got 28692 / 39868 correct (71.97)
+
+Epoch 17, Iteration 2000, loss = 0.5196
+Checking accuracy on validation set
+Got 28644 / 39868 correct (71.85)
+
+Epoch 17, Iteration 2100, loss = 0.5381
+Checking accuracy on validation set
+Got 28812 / 39868 correct (72.27)
+
+Epoch 17, Iteration 2200, loss = 0.4909
+Checking accuracy on validation set
+Got 28686 / 39868 correct (71.95)
+
+Epoch 18, Iteration 0, loss = 0.3026
+Checking accuracy on validation set
+Got 28637 / 39868 correct (71.83)
+
+Epoch 18, Iteration 100, loss = 0.5834
+Checking accuracy on validation set
+Got 28242 / 39868 correct (70.84)
+
+Epoch 18, Iteration 200, loss = 0.1844
+Checking accuracy on validation set
+Got 28847 / 39868 correct (72.36)
+
+Epoch 18, Iteration 300, loss = 0.3469
+Checking accuracy on validation set
+Got 27925 / 39868 correct (70.04)
+
+Epoch 18, Iteration 400, loss = 0.3619
+Checking accuracy on validation set
+Got 28142 / 39868 correct (70.59)
+
+Epoch 18, Iteration 500, loss = 0.4698
+Checking accuracy on validation set
+Got 28850 / 39868 correct (72.36)
+
+Epoch 18, Iteration 600, loss = 0.6022
+Checking accuracy on validation set
+Got 28767 / 39868 correct (72.16)
+
+Epoch 18, Iteration 700, loss = 0.4850
+Checking accuracy on validation set
+Got 28758 / 39868 correct (72.13)
+
+Epoch 18, Iteration 800, loss = 0.4861
+Checking accuracy on validation set
+Got 28863 / 39868 correct (72.40)
+
+Epoch 18, Iteration 900, loss = 0.4193
+Checking accuracy on validation set
+Got 28380 / 39868 correct (71.18)
+
+Epoch 18, Iteration 1000, loss = 0.4089
+Checking accuracy on validation set
+Got 28624 / 39868 correct (71.80)
+
+Epoch 18, Iteration 1100, loss = 0.4359
+Checking accuracy on validation set
+Got 28273 / 39868 correct (70.92)
+
+Epoch 18, Iteration 1200, loss = 0.4272
+Checking accuracy on validation set
+Got 28641 / 39868 correct (71.84)
+
+Epoch 18, Iteration 1300, loss = 0.5553
+Checking accuracy on validation set
+Got 28319 / 39868 correct (71.03)
+
+Epoch 18, Iteration 1400, loss = 0.2231
+Checking accuracy on validation set
+Got 28836 / 39868 correct (72.33)
+
+Epoch 18, Iteration 1500, loss = 0.5191
+Checking accuracy on validation set
+Got 28916 / 39868 correct (72.53)
+
+Epoch 18, Iteration 1600, loss = 0.3410
+Checking accuracy on validation set
+Got 28814 / 39868 correct (72.27)
+
+Epoch 18, Iteration 1700, loss = 0.4573
+Checking accuracy on validation set
+Got 28529 / 39868 correct (71.56)
+
+Epoch 18, Iteration 1800, loss = 0.4696
+Checking accuracy on validation set
+Got 28894 / 39868 correct (72.47)
+
+Epoch 18, Iteration 1900, loss = 0.5311
+Checking accuracy on validation set
+Got 28347 / 39868 correct (71.10)
+
+Epoch 18, Iteration 2000, loss = 0.3890
+Checking accuracy on validation set
+Got 28603 / 39868 correct (71.74)
+
+Epoch 18, Iteration 2100, loss = 0.4176
+Checking accuracy on validation set
+Got 28687 / 39868 correct (71.95)
+
+Epoch 18, Iteration 2200, loss = 0.3529
+Checking accuracy on validation set
+Got 28660 / 39868 correct (71.89)
+
+Epoch 19, Iteration 0, loss = 0.3528
+Checking accuracy on validation set
+Got 28621 / 39868 correct (71.79)
+
+Epoch 19, Iteration 100, loss = 0.3646
+Checking accuracy on validation set
+Got 28757 / 39868 correct (72.13)
+
+Epoch 19, Iteration 200, loss = 0.4248
+Checking accuracy on validation set
+Got 28506 / 39868 correct (71.50)
+
+Epoch 19, Iteration 300, loss = 0.5121
+Checking accuracy on validation set
+Got 28638 / 39868 correct (71.83)
+
+Epoch 19, Iteration 400, loss = 0.3787
+Checking accuracy on validation set
+Got 28751 / 39868 correct (72.12)
+
+Epoch 19, Iteration 500, loss = 0.5920
+Checking accuracy on validation set
+Got 29037 / 39868 correct (72.83)
+
+Epoch 19, Iteration 600, loss = 0.2403
+Checking accuracy on validation set
+Got 28788 / 39868 correct (72.21)
+
+Epoch 19, Iteration 700, loss = 0.2586
+Checking accuracy on validation set
+Got 28846 / 39868 correct (72.35)
+
+Epoch 19, Iteration 800, loss = 0.3572
+Checking accuracy on validation set
+Got 28807 / 39868 correct (72.26)
+
+Epoch 19, Iteration 900, loss = 0.3238
+Checking accuracy on validation set
+Got 28984 / 39868 correct (72.70)
+
+Epoch 19, Iteration 1000, loss = 0.2660
+Checking accuracy on validation set
+Got 28817 / 39868 correct (72.28)
+
+Epoch 19, Iteration 1100, loss = 0.5491
+Checking accuracy on validation set
+Got 28693 / 39868 correct (71.97)
+
+Epoch 19, Iteration 1200, loss = 0.5321
+Checking accuracy on validation set
+Got 28278 / 39868 correct (70.93)
+
+Epoch 19, Iteration 1300, loss = 0.6369
+Checking accuracy on validation set
+Got 28624 / 39868 correct (71.80)
+
+Epoch 19, Iteration 1400, loss = 0.4281
+Checking accuracy on validation set
+Got 28867 / 39868 correct (72.41)
+
+Epoch 19, Iteration 1500, loss = 0.4450
+Checking accuracy on validation set
+Got 28459 / 39868 correct (71.38)
+
+Epoch 19, Iteration 1600, loss = 0.5914
+Checking accuracy on validation set
+Got 28745 / 39868 correct (72.10)
+
+Epoch 19, Iteration 1700, loss = 0.4247
+Checking accuracy on validation set
+Got 28751 / 39868 correct (72.12)
+
+Epoch 19, Iteration 1800, loss = 0.4699
+Checking accuracy on validation set
+Got 28197 / 39868 correct (70.73)
+
+Epoch 19, Iteration 1900, loss = 0.3072
+Checking accuracy on validation set
+Got 28758 / 39868 correct (72.13)
+
+Epoch 19, Iteration 2000, loss = 0.3310
+Checking accuracy on validation set
+Got 28888 / 39868 correct (72.46)
+
+Epoch 19, Iteration 2100, loss = 0.2720
+Checking accuracy on validation set
+Got 28373 / 39868 correct (71.17)
+
+Epoch 19, Iteration 2200, loss = 0.4448
+Checking accuracy on validation set
+Got 28897 / 39868 correct (72.48)
+
+Checking accuracy on test set
+Got 11531 / 16006 correct (72.04)
