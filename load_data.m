@@ -19,7 +19,7 @@ X_val = [];
 Y_val = [];
 X_test = [];
 Y_test = [];
-sub_test = {};
+subj_test = {};
 % subjID = {};
 
 % choose training, validation, and test from different subjects.
@@ -55,7 +55,7 @@ for iFile=1:N
     if (iFile <= N_test_subjs)
         %X_test = cat(3,X_test, tmpdata);
         %Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
-        subj_test = [subj_test, EEGeyesc.subjID];
+        subj_test = [subj_test EEGeyesc.subjID];
     elseif (iFile <= N_test_subjs + N_val_subjs)
         %X_val = cat(3, X_val, tmpdata);
         %Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
@@ -92,7 +92,7 @@ for iFile=1:N
     if (iFile <= N_test_subjs)
 %         X_test = cat(3,X_test, tmpdata);
 %         Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
-        subj_test = [subj_test, EEGeyesc.subjID];
+        subj_test = [subj_test EEGeyesc.subjID];
     elseif (iFile <= N_test_subjs + N_val_subjs)
 %         X_val = cat(3, X_val, tmpdata);
 %         Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
