@@ -19,6 +19,7 @@ X_val = [];
 Y_val = [];
 X_test = [];
 Y_test = [];
+sub_test = {};
 % subjID = {};
 
 % choose training, validation, and test from different subjects.
@@ -52,14 +53,15 @@ for iFile=1:N
     
     % append to XOri
     if (iFile <= N_test_subjs)
-	X_test = cat(3,X_test, tmpdata);
-        Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
+        %X_test = cat(3,X_test, tmpdata);
+        %Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
+        subj_test = [subj_test, EEGeyesc.subjID];
     elseif (iFile <= N_test_subjs + N_val_subjs)
-	X_val = cat(3, X_val, tmpdata);
-        Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
+        %X_val = cat(3, X_val, tmpdata);
+        %Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
     else
-	X_train = cat(3, X_train,tmpdata);
-    Y_train = [Y_train, repelem(EEGeyesc.gender, size(tmpdata,3))];
+        %X_train = cat(3, X_train,tmpdata);
+        %Y_train = [Y_train, repelem(EEGeyesc.gender, size(tmpdata,3))];
     end
     
     %% male
@@ -88,21 +90,23 @@ for iFile=1:N
     
     % append to XOri
     if (iFile <= N_test_subjs)
-	X_test = cat(3,X_test, tmpdata);
-        Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
+%         X_test = cat(3,X_test, tmpdata);
+%         Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
+        subj_test = [subj_test, EEGeyesc.subjID];
     elseif (iFile <= N_test_subjs + N_val_subjs)
-	X_val = cat(3, X_val, tmpdata);
-        Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
+%         X_val = cat(3, X_val, tmpdata);
+%         Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
     else
-	X_train = cat(3, X_train,tmpdata);
-    Y_train = [Y_train, repelem(EEGeyesc.gender, size(tmpdata,3))];
+%         X_train = cat(3, X_train,tmpdata);
+%         Y_train = [Y_train, repelem(EEGeyesc.gender, size(tmpdata,3))];
     end
 end
 
 % save
-save('child_mind_x_train_v2.mat','X_train','-v7.3');
-save('child_mind_y_train_v2.mat','Y_train','-v7.3');
-save('child_mind_x_val_v2.mat','X_val','-v7.3');
-save('child_mind_y_val_v2.mat','Y_val','-v7.3');
-save('child_mind_x_test_v2.mat','X_test','-v7.3');
-save('child_mind_y_test_v2.mat','Y_test','-v7.3');
+% save('child_mind_x_train_v2.mat','X_train','-v7.3');
+% save('child_mind_y_train_v2.mat','Y_train','-v7.3');
+% save('child_mind_x_val_v2.mat','X_val','-v7.3');
+% save('child_mind_y_val_v2.mat','Y_val','-v7.3');
+% save('child_mind_x_test_v2.mat','X_test','-v7.3');
+% save('child_mind_y_test_v2.mat','Y_test','-v7.3');
+save('test_subj.mat','subj_test','-v7.3');
