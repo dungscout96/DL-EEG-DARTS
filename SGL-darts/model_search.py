@@ -6,7 +6,7 @@ import numpy as np
 from torch.autograd import Variable
 from genotypes import PRIMITIVES
 from genotypes import Genotype
-from mmcv.cnn import xavier_init
+#from mmcv.cnn import xavier_init
 
 
 class MixedOp(nn.Module):
