@@ -306,21 +306,27 @@ def train(train_queue,
     optimizer.step()
     optimizer1.step()
 
-    prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
+    # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
+    prec1 = utils.accuracy(logits, target)
     objs.update(loss.item(), n)
     top1.update(prec1.item(), n)
-    top5.update(prec5.item(), n)
+    # top5.update(prec5.item(), n)
 
-    prec1, prec5 = utils.accuracy(logits1, target, topk=(1, 5))
+    # prec1, prec5 = utils.accuracy(logits1, target, topk=(1, 5))
+    prec1 = utils.accuracy(logits1, target)
     objs1.update(loss1.item(), n)
     top1_1.update(prec1.item(), n)
-    top5_1.update(prec5.item(), n)
+    # top5_1.update(prec5.item(), n)
 
     if step % args.report_freq == 0:
-      logging.info('train 1st %03d %e %f %f', step,
-                   objs.avg, top1.avg, top5.avg)
-      logging.info('train 2nd %03d %e %f %f', step,
-                   objs1.avg, top1_1.avg, top5_1.avg)
+      # logging.info('train 1st %03d %e %f %f', step,
+      #              objs.avg, top1.avg, top5.avg)
+      # logging.info('train 2nd %03d %e %f %f', step,
+      #              objs1.avg, top1_1.avg, top5_1.avg)
+      logging.info('train 1st %03d %e %f', step,
+                   objs.avg, top1.avg)
+      logging.info('train 2nd %03d %e %f', step,
+                   objs1.avg, top1_1.avg)
 
   return top1.avg, objs.avg, top1_1.avg, objs1.avg
 
@@ -343,25 +349,31 @@ def infer(valid_queue, model, model1, criterion):
         logits = model(input)
         loss = criterion(logits, target)
 
-        prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
+        # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
+        prec1 = utils.accuracy(logits, target)
         n = input.size(0)
         objs.update(loss.item(), n)
         top1.update(prec1.item(), n)
-        top5.update(prec5.item(), n)
+        # top5.update(prec5.item(), n)
 
         # for the second model.
         logits = model1(input)
         loss = criterion(logits, target)
 
-        prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
+        # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
+        prec1 = utils.accuracy(logits, target)
         objs1.update(loss.item(), n)
         top1_1.update(prec1.item(), n)
-        top5_1.update(prec5.item(), n)
+        # top5_1.update(prec5.item(), n)
         if step % args.report_freq == 0:
-          logging.info('valid 1st %03d %e %f %f', step,
-                       objs.avg, top1.avg, top5.avg)
-          logging.info('valid 2nd %03d %e %f %f', step,
-                       objs1.avg, top1_1.avg, top5_1.avg)
+          # logging.info('valid 1st %03d %e %f %f', step,
+          #              objs.avg, top1.avg, top5.avg)
+          # logging.info('valid 2nd %03d %e %f %f', step,
+          #              objs1.avg, top1_1.avg, top5_1.avg)
+          logging.info('valid 1st %03d %e %f', step,
+                       objs.avg, top1.avg)
+          logging.info('valid 2nd %03d %e %f', step,
+                       objs1.avg, top1_1.avg)
 
     return top1.avg, objs.avg, top1_1.avg, objs1.avg
 
