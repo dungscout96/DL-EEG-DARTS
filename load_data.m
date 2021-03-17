@@ -5,7 +5,7 @@ eeglab; close;
 
 %try, parpool(23); end
 
-folderout = '/expanse/projects/nemar/child-mind-restingstate-dung';
+folderout = '/expanse/projects/nemar/child-mind-restingstate-dung-v2';
 fileNamesClosed = dir(fullfile(folderout, '*_eyesclosed.set'));
 female = readtable('female.csv');
 female = female.Var1;
