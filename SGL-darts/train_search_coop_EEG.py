@@ -309,13 +309,13 @@ def train(train_queue,
     # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
     prec1 = utils.accuracy(logits, target)
     objs.update(loss.item(), n)
-    top1.update(prec1.item(), n)
+    top1.update(prec1[0], n)
     # top5.update(prec5.item(), n)
 
     # prec1, prec5 = utils.accuracy(logits1, target, topk=(1, 5))
     prec1 = utils.accuracy(logits1, target)
     objs1.update(loss1.item(), n)
-    top1_1.update(prec1.item(), n)
+    top1_1.update(prec1[0], n)
     # top5_1.update(prec5.item(), n)
 
     if step % args.report_freq == 0:
@@ -353,7 +353,7 @@ def infer(valid_queue, model, model1, criterion):
         prec1 = utils.accuracy(logits, target)
         n = input.size(0)
         objs.update(loss.item(), n)
-        top1.update(prec1.item(), n)
+        top1.update(prec1[0], n)
         # top5.update(prec5.item(), n)
 
         # for the second model.
@@ -363,7 +363,7 @@ def infer(valid_queue, model, model1, criterion):
         # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
         prec1 = utils.accuracy(logits, target)
         objs1.update(loss.item(), n)
-        top1_1.update(prec1.item(), n)
+        top1_1.update(prec1[0], n)
         # top5_1.update(prec5.item(), n)
         if step % args.report_freq == 0:
           # logging.info('valid 1st %03d %e %f %f', step,
