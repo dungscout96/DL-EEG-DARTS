@@ -26,7 +26,7 @@ subj_test = {};
 N_test_subjs = ceil(N * 0.125);
 N_val_subjs = ceil(N * 0.3125);
 N_train_subjs = length(fileNamesClosed) - N_test_subjs - N_val_subjs;
-for iFile=1:100
+for iFile=1:10 %N
     %% female
     EEGeyesc = pop_loadset('filepath', folderout, 'filename', [female{iFile} '_eyesclosed.set']);
     
@@ -55,7 +55,7 @@ for iFile=1:100
     if (iFile <= N_test_subjs)
         %X_test = cat(3,X_test, tmpdata);
         %Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
-        subj_test = [subj_test repelem(EEGeyesc.subjID, size(tmpdata,3))];
+        subj_test = [subj_test repelem(string(EEGeyesc.subjID), size(tmpdata,3))];
     elseif (iFile <= N_test_subjs + N_val_subjs)
         %X_val = cat(3, X_val, tmpdata);
         %Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
@@ -92,7 +92,7 @@ for iFile=1:100
     if (iFile <= N_test_subjs)
 %         X_test = cat(3,X_test, tmpdata);
 %         Y_test = [Y_test, repelem(EEGeyesc.gender, size(tmpdata,3))];
-        subj_test = [subj_test repelem(EEGeyesc.subjID, size(tmpdata,3))];
+        subj_test = [subj_test repelem(string(EEGeyesc.subjID), size(tmpdata,3))];
     elseif (iFile <= N_test_subjs + N_val_subjs)
 %         X_val = cat(3, X_val, tmpdata);
 %         Y_val = [Y_val, repelem(EEGeyesc.gender, size(tmpdata,3))];
