@@ -26,7 +26,7 @@ subj_test = {};
 N_test_subjs = ceil(N * 0.125);
 N_val_subjs = ceil(N * 0.3125);
 N_train_subjs = length(fileNamesClosed) - N_test_subjs - N_val_subjs;
-for iFile=1:10 %N
+for iFile=1:N
     %% female
     EEGeyesc = pop_loadset('filepath', folderout, 'filename', [female{iFile} '_eyesclosed.set']);
     
