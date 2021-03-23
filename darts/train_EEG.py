@@ -120,9 +120,6 @@ def main():
     train_acc, train_obj = train(train_queue, valid_queue, model, architect, criterion, optimizer, lr)
     logging.info('train_acc %f', train_acc)
 
-    genotype = model.genotype()
-    logging.info('genotype = %s', genotype)
-    utils.save(model, os.path.join(args.save, 'weights.pt'))
     # validation
     valid_acc, valid_obj = infer(valid_queue, model, criterion)
     logging.info('valid_acc %f', valid_acc)
